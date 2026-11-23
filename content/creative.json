@@ -1,0 +1,94 @@
+{
+  "roofPyramisa": {
+    "id": "roof-pyramisa",
+    "brand": "Roof Pyramisa",
+    "title": {
+      "en": "Every table has a story",
+      "ar": "كل طاولة لها حكاية"
+    },
+    "category": {
+      "en": "Creative concept · content · brand film",
+      "ar": "فكرة إبداعية · محتوى · فيلم للبراند"
+    },
+    "films": [
+      {
+        "src": "assets/art/roof/video/brand-film-every-table.mp4",
+        "poster": "assets/art/roof/video/brand-film-every-table-poster.jpg",
+        "title": {
+          "en": "Brand film — Every table has a story",
+          "ar": "فيلم البراند — كل طاولة لها حكاية"
+        },
+        "orientation": "landscape"
+      },
+      {
+        "src": "assets/art/roof/video/romantic-moments.mp4",
+        "poster": "assets/art/roof/video/romantic-moments-poster.jpg",
+        "title": {
+          "en": "Romantic moments",
+          "ar": "لحظات رومانسية"
+        },
+        "orientation": "portrait"
+      },
+      {
+        "src": "assets/art/roof/video/chef-new-dish.mp4",
+        "poster": "assets/art/roof/video/chef-new-dish-poster.jpg",
+        "title": {
+          "en": "The chef's new dish",
+          "ar": "طبق الشيف الجديد"
+        },
+        "orientation": "portrait"
+      }
+    ],
+    "stills": [
+      {
+        "src": "assets/art/roof/every-table-meeting.jpg",
+        "caption": {
+          "en": "Every table has a story — business",
+          "ar": "كل طاولة لها حكاية — اجتماع عمل"
+        }
+      },
+      {
+        "src": "assets/art/roof/every-table-study.jpg",
+        "caption": {
+          "en": "Every table has a story — study",
+          "ar": "كل طاولة لها حكاية — مذاكرة"
+        }
+      },
+      {
+        "src": "assets/art/roof/family-birthday.jpg",
+        "caption": {
+          "en": "When the family gathers",
+          "ar": "لما العيلة تتجمع"
+        }
+      },
+      {
+        "src": "assets/art/roof/chef-passion.jpg",
+        "caption": {
+          "en": "Every dish made with passion",
+          "ar": "كل طبق بيتحضر بشغف"
+        }
+      },
+      {
+        "src": "assets/art/roof/signature-dishes.jpg",
+        "caption": {
+          "en": "Signature dishes",
+          "ar": "من أشهر أطباقنا"
+        }
+      },
+      {
+        "src": "assets/art/roof/romantic-rose.jpg",
+        "caption": {
+          "en": "Romantic moments",
+          "ar": "لحظات رومانسية"
+        }
+      },
+      {
+        "src": "assets/art/roof/family-celebration-wide.jpg",
+        "caption": {
+          "en": "The family celebration",
+          "ar": "احتفال العيلة"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "ecartCase": {
+    "id": "ecart-content-growth",
+    "client": "E-Cart Solutions — إي كارت",
+    "category": "creative",
+    "headline": {
+      "en": "Content that sells the agency — and a founder voice people trust",
+      "ar": "محتوى بيبيع الوكالة — وصوت مؤسس الناس بتثق فيه"
+    },
+    "role": {
+      "en": "Content plan · scriptwriting · filming direction · on-camera host · campaign launches",
+      "ar": "خطة المحتوى · الكتابة · التصوير · المتحدث أمام الكاميرا · إطلاق الحملات"
+    },
+    "agencyVideos": [
+      {
+        "src": "assets/work/ecart/01-no-new-media-buyer.mp4",
+        "poster": "assets/work/ecart/01-no-new-media-buyer-poster.jpg",
+        "title": {
+          "en": "You don’t need a new media buyer",
+          "ar": "إنت مش محتاج ميديا باير جديد"
+        }
+      },
+      {
+        "src": "assets/work/ecart/02-before-raising-budget.mp4",
+        "poster": "assets/work/ecart/02-before-raising-budget-poster.jpg",
+        "title": {
+          "en": "Before you raise your ad budget",
+          "ar": "قبل ما تزوّد بادجت الإعلانات"
+        }
+      },
+      {
+        "src": "assets/work/ecart/03-in-house-marketing-team.mp4",
+        "poster": "assets/work/ecart/03-in-house-marketing-team-poster.jpg",
+        "title": {
+          "en": "Having an in-house marketing team",
+          "ar": "وجود تيم ماركتينج داخلي"
+        }
+      },
+      {
+        "src": "assets/work/ecart/04-when-to-rebrand-website.mp4",
+        "poster": "assets/work/ecart/04-when-to-rebrand-website-poster.jpg",
+        "title": {
+          "en": "When does your website need a rebrand?",
+          "ar": "إمتى تعرف إن الويب سايت محتاج ري براندينج"
+        }
+      },
+      {
+        "src": "assets/work/ecart/05-product-search.mp4",
+        "poster": "assets/work/ecart/05-product-search-poster.jpg",
+        "title": {
+          "en": "The customer searched for a product name",
+          "ar": "العميل كتب اسم منتج في السيرش"
+        }
+      },
+      {
+        "src": "assets/work/ecart/06-cheap-website.mp4",
+        "poster": "assets/work/ecart/06-cheap-website-poster.jpg",
+        "title": {
+          "en": "Building a cheap website",
+          "ar": "تعمل ويب سايت رخيص"
+        }
+      },
+      {
+        "src": "assets/work/ecart/07-left-without-buying.mp4",
+        "poster": "assets/work/ecart/07-left-without-buying-poster.jpg",
+        "title": {
+          "en": "The customer left without buying",
+          "ar": "العميل خرج من غير ما يشتري"
+        }
+      },
+      {
+        "src": "assets/work/ecart/08-website-weakest-link.mp4",
+        "poster": "assets/work/ecart/08-website-weakest-link-poster.jpg",
+        "title": {
+          "en": "Don’t let your website be your brand’s weakest link",
+          "ar": "متخليش الويب سايت أضعف حلقة في البراند بتاعك"
+        }
+      }
+    ],
+    "sections": [
+      {
+        "heading": {
+          "en": "Agency content — planned, written, shot and hosted",
+          "ar": "محتوى الوكالة — تخطيط وكتابة وتصوير وتقديم"
+        },
+        "body": {
+          "en": "A short-form series answering the questions e-commerce brand owners actually ask — ad budgets, conversion rate, websites, rebranding, cart abandonment. I built the plan, wrote the scripts, directed the shoots and presented on camera, in partnership with the agency’s founder, Osama Gamal.",
+          "ar": "سلسلة فيديوهات قصيرة بتجاوب على الأسئلة اللي أصحاب البراندات في الإي كومرس بيسألوها فعلًا — بادجت الإعلانات، ومعدل التحويل، والويب سايت، والري براندينج، والسلات المتروكة. عملت الخطة، وكتبت، وأخرجت التصوير، وقدّمت أمام الكاميرا، بالمشاركة مع مؤسس الوكالة أسامة جمال."
+        }
+      },
+      {
+        "heading": {
+          "en": "The founder’s voice — Q&A, unscripted",
+          "ar": "صوت المؤسس — سؤال وجواب، من غير سكريبت"
+        },
+        "body": {
+          "en": "Alongside the agency content, I partnered with Osama on his personal brand. The principle was simple: his knowledge is the content — our job was to surface it naturally. Using his usual Q&A style, I asked the questions and he answered on the spot, so advanced insight comes through without heavy editing or many cuts. That spontaneity is what builds trust. Each question was chosen for a specific audience: beginners, mid-level marketers, seniors and brand owners.",
+          "ar": "جنب محتوى الوكالة، اشتغلت مع أسامة على البرسونال براندينج الخاص بيه. المبدأ كان بسيط: معرفته هي المحتوى — ودورنا إننا نطلّعها بشكل طبيعي. بأسلوبه المعتاد في الـ Q&A، كنت بسأل وهو بيجاوب تلقائيًا، فالمعلومة المتقدمة بتوصل من غير مونتاج تقيل أو كتات كتير — والتلقائية دي هي اللي بتبني الثقة. وكل سؤال كان مختار لجمهور محدد: المبتدئين، والميد ليفل، والسينيورز، وأصحاب البراندات."
+        }
+      },
+      {
+        "heading": {
+          "en": "Growth campaigns",
+          "ar": "حملات النمو"
+        },
+        "body": {
+          "en": "I also launched the campaigns for the agency’s academy (courses), and lead-generation campaigns bringing in clients for professional Shopify store builds.",
+          "ar": "وكمان كنت بطلق حملات أكاديمية الوكالة (الكورسات)، وحملات العملاء المحتملين لجلب عملاء لإنشاء متاجر Shopify احترافية."
+        }
+      }
+    ],
+    "founderContent": [
+      {
+        "src": "assets/work/ecart/founder-qa-grid-1.jpg",
+        "caption": {
+          "en": "Founder Q&A series — selected topics",
+          "ar": "سلسلة الـ Q&A مع المؤسس — موضوعات مختارة"
+        }
+      },
+      {
+        "src": "assets/work/ecart/founder-qa-grid-2.jpg",
+        "caption": {
+          "en": "Questions mapped to each audience level",
+          "ar": "أسئلة متوزعة على كل مستوى جمهور"
+        }
+      }
+    ],
+    "bts": [
+      {
+        "src": "assets/work/ecart/bts/bts-01.mp4",
+        "poster": "assets/work/ecart/bts/bts-01-poster.jpg",
+        "title": {
+          "en": "Script check before the take",
+          "ar": "مراجعة السكريبت قبل التصوير"
+        }
+      },
+      {
+        "src": "assets/work/ecart/bts/bts-02.mp4",
+        "poster": "assets/work/ecart/bts/bts-02-poster.jpg",
+        "title": {
+          "en": "Rolling — coffee bar set",
+          "ar": "تصوير — ديكور الكوفي بار"
+        }
+      },
+      {
+        "src": "assets/work/ecart/bts/bts-03.mp4",
+        "poster": "assets/work/ecart/bts/bts-03-poster.jpg",
+        "title": {
+          "en": "Talking to camera",
+          "ar": "كلام للكاميرا"
+        }
+      },
+      {
+        "src": "assets/work/ecart/bts/bts-04.mp4",
+        "poster": "assets/work/ecart/bts/bts-04-poster.jpg",
+        "title": {
+          "en": "Through the camera monitor",
+          "ar": "من شاشة الكاميرا"
+        }
+      },
+      {
+        "src": "assets/work/ecart/bts/bts-05.mp4",
+        "poster": "assets/work/ecart/bts/bts-05-poster.jpg",
+        "title": {
+          "en": "Kitchen set take",
+          "ar": "تصوير في ديكور المطبخ"
+        }
+      }
+    ],
+    "btsPhotos": [
+      {
+        "src": "assets/work/ecart/bts/bts-monitor.jpg",
+        "caption": {
+          "en": "On the monitor: ISO 800 · f/2.8 · 1/200",
+          "ar": "على شاشة الكاميرا: ISO 800 · f/2.8 · 1/200"
+        }
+      }
+    ],
+    "carousel": [
+      {
+        "src": "assets/work/ecart/faq/00-questions-before-we-start.jpg",
+        "caption": {
+          "en": "Questions before we start?",
+          "ar": "أسئلة قبل ما نبدأ؟"
+        }
+      },
+      {
+        "src": "assets/work/ecart/faq/01-project-cost.jpg",
+        "caption": {
+          "en": "How much does a project cost?",
+          "ar": "المشروع بيتكلف كام؟"
+        }
+      },
+      {
+        "src": "assets/work/ecart/faq/02-timeline.jpg",
+        "caption": {
+          "en": "How long does a project take?",
+          "ar": "المشروع بياخد وقت قد إيه؟"
+        }
+      },
+      {
+        "src": "assets/work/ecart/faq/03-redesign.jpg",
+        "caption": {
+          "en": "Can you redesign an existing store?",
+          "ar": "ينفع تعيدوا تصميم متجر موجود؟"
+        }
+      },
+      {
+        "src": "assets/work/ecart/faq/04-conversion.jpg",
+        "caption": {
+          "en": "Can you guarantee better conversion?",
+          "ar": "تقدروا تضمنوا تحويل أعلى؟"
+        }
+      },
+      {
+        "src": "assets/work/ecart/faq/05-cheaper-option.jpg",
+        "caption": {
+          "en": "Why choose eCart over a cheaper option?",
+          "ar": "ليه إي كارت بدل اختيار أرخص؟"
+        }
+      },
+      {
+        "src": "assets/work/ecart/faq/06-after-launch.jpg",
+        "caption": {
+          "en": "What happens after launch?",
+          "ar": "إيه اللي بيحصل بعد الإطلاق؟"
+        }
+      },
+      {
+        "src": "assets/work/ecart/faq/07-still-have-a-question.jpg",
+        "caption": {
+          "en": "Still have a question?",
+          "ar": "لسه عندك سؤال؟"
+        }
+      }
+    ],
+    "todo": [
+      "Academy & Shopify lead-gen campaign results (screenshots) — to add numbers",
+      "Approval from Osama to show his Q&A content on the portfolio"
+    ]
+  }
+}

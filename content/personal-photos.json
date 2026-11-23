@@ -1,0 +1,14 @@
+{
+  "personalPhotos": {
+    "companies": {
+      "e-cart": "assets/companies/ecart.jpg",
+      "al-ahly": "assets/companies/alahly.jpg",
+      "azraq": "assets/companies/azzrak.jpg",
+      "mohareb": "assets/companies/moharb.jpg",
+      "seet": "assets/companies/seet.jpg",
+      "tag": "assets/companies/tag.jpg"
+    },
+    "artIntro": "assets/personal/opera-stage-full.jpg",
+    "contact": "assets/personal/opera-stage-look-up.jpg"
+  }
+}

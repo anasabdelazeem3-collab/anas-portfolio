@@ -1,0 +1,59 @@
+{
+  "creativeConcepts": [
+    {
+      "id": "aurest",
+      "brand": "Aurest / Aurmenu",
+      "category": {
+        "en": "Creative concept · talking-head content",
+        "ar": "كرييتف كونسبت · محتوى متحدث للكاميرا"
+      },
+      "summary": {
+        "en": "Restaurant-management software: two talking-head videos that turn product features (digital menu, add-ons to run your restaurant) into everyday restaurant-owner problems.",
+        "ar": "برنامج إدارة مطاعم: فيديوهين بمتحدث للكاميرا بيحوّلوا مميزات المنتج (المنيو الرقمي، والإضافات اللي بتساعدك تدير مطعمك) لمشاكل يومية بيعيشها صاحب المطعم."
+      },
+      "videos": [
+        {
+          "src": "assets/work/aurest/aurest-01-aurmenu.mp4",
+          "poster": "assets/work/aurest/aurest-01-aurmenu-poster.jpg",
+          "title": {
+            "en": "Aurmenu — the digital menu",
+            "ar": "أورمينيو — المنيو الرقمي"
+          }
+        },
+        {
+          "src": "assets/work/aurest/aurest-02-restaurant-addons.mp4",
+          "poster": "assets/work/aurest/aurest-02-restaurant-addons-poster.jpg",
+          "title": {
+            "en": "Add-ons to help you run your restaurant",
+            "ar": "إضافات تساعدك في إدارة مطعمك"
+          }
+        }
+      ]
+    },
+    {
+      "id": "marketing-content-agency",
+      "brand": {
+        "en": "Marketing & content company",
+        "ar": "شركة تسويق ومحتوى"
+      },
+      "category": {
+        "en": "Creative concept · talking-head ad",
+        "ar": "كرييتف كونسبت · إعلان بمتحدث للكاميرا"
+      },
+      "summary": {
+        "en": "A pain-led hook — “why do you keep spending money?” — that walks business owners from wasted ad spend to a managed, measured approach.",
+        "ar": "هوك مبني على الألم — «ليه كل شوية تصرف فلوس؟» — بياخد صاحب البيزنس من الميزانية اللي بتضيع لطريقة شغل مُدارة ومقاسة."
+      },
+      "videos": [
+        {
+          "src": "assets/work/marketing-content/stop-burning-budget.mp4",
+          "poster": "assets/work/marketing-content/stop-burning-budget-poster.jpg",
+          "title": {
+            "en": "“Why do you keep spending money?”",
+            "ar": "«ليه كل شوية تصرف فلوس؟»"
+          }
+        }
+      ]
+    }
+  ]
+}

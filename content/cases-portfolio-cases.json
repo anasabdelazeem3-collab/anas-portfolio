@@ -1,0 +1,644 @@
+{
+  "ecommerceCases": [
+    {
+      "id": "maysara",
+      "client": "Maysara Factory — مصنع ميسرة",
+      "logo": "maysarah",
+      "niche": {
+        "en": "Laundry products · B2B & B2C",
+        "ar": "منظفات غسيل · B2B وB2C"
+      },
+      "period": {
+        "en": "2024 – 2025",
+        "ar": "٢٠٢٤ – ٢٠٢٥"
+      },
+      "headline": {
+        "en": "A factory selling to shops and homes: 1.13M SAR",
+        "ar": "مصنع بيبيع للمحلات والبيوت: ١٫١٣ مليون ريال"
+      },
+      "metrics": {
+        "salesSAR": 1125375.57,
+        "netSAR": 878969,
+        "spendSAR": 190000,
+        "roas": 5.92
+      },
+      "breakdown": {
+        "coupons": -2365.47,
+        "shipping": -106718.12,
+        "taxes": -129520.25,
+        "paymentFees": -7802.73
+      },
+      "sections": [
+        {
+          "heading": {
+            "en": "The challenge",
+            "ar": "التحدي"
+          },
+          "body": {
+            "en": "One factory, two buyers: businesses ordering in bulk and households ordering a box.",
+            "ar": "مصنع واحد وعميلين: بيزنس بيطلب بالجملة وبيت بيطلب كرتونة."
+          }
+        },
+        {
+          "heading": {
+            "en": "The insight",
+            "ar": "الإنسايت"
+          },
+          "body": {
+            "en": "At 190K SAR of spend — the largest budget here — it still returned 5.92× with almost no discounting (coupons ≈0.2% of sales). Growth came from reach, not price cuts.",
+            "ar": "مع ١٩٠ ألف ريال صرف — أكبر ميزانية في الشغل ده — رجّع ٥٫٩٢ ضعف تقريبًا من غير خصومات (الكوبونات حوالي ٠٫٢٪ من المبيعات). النمو جه من الوصول مش من تكسير السعر."
+          }
+        }
+      ],
+      "proof": [
+        {
+          "src": "assets/work/cases/maysara-sales.jpg",
+          "caption": {
+            "en": "Store sales breakdown",
+            "ar": "تفاصيل مبيعات المتجر"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sheis",
+      "client": "She Is — شي إز",
+      "logo": "sheis",
+      "niche": {
+        "en": "Women’s abayas",
+        "ar": "عبايات نسائية"
+      },
+      "period": {
+        "en": "May 2024",
+        "ar": "مايو ٢٠٢٤"
+      },
+      "headline": {
+        "en": "Target 250K. Delivered 267.7K.",
+        "ar": "التارجت ٢٥٠ ألف. اتحقق ٢٦٧٫٧ ألف."
+      },
+      "metrics": {
+        "salesSAR": 267726,
+        "goalSAR": 250000,
+        "visits": 47191,
+        "orders": 738,
+        "spendSAR": 40000,
+        "roas": 6.69
+      },
+      "sections": [
+        {
+          "heading": {
+            "en": "The insight",
+            "ar": "الإنسايت"
+          },
+          "body": {
+            "en": "A fashion month planned backwards from a sales target: 107% of goal, 1.56% of visits converting, AOV ≈363 SAR.",
+            "ar": "شهر فاشون متخطط بالعكس من تارجت المبيعات: ١٠٧٪ من الهدف، و١٫٥٦٪ من الزيارات اتحولت لطلبات، ومتوسط الطلب حوالي ٣٦٣ ريال."
+          }
+        }
+      ],
+      "proof": [
+        {
+          "src": "assets/work/cases/sheis-may-2024.jpg",
+          "caption": {
+            "en": "Store monthly summary — May 2024",
+            "ar": "ملخص المتجر — مايو ٢٠٢٤"
+          }
+        }
+      ]
+    },
+    {
+      "id": "operamck",
+      "client": "Operamck — أوبرا ماك",
+      "logo": "operamak",
+      "niche": {
+        "en": "Cosmetics",
+        "ar": "مستحضرات تجميل"
+      },
+      "period": {
+        "en": "February 2024",
+        "ar": "فبراير ٢٠٢٤"
+      },
+      "headline": {
+        "en": "238 orders, 509K SAR: when every order is high-ticket",
+        "ar": "٢٣٨ طلب بـ ٥٠٩ ألف ريال: لما كل طلب قيمته عالية"
+      },
+      "metrics": {
+        "salesSAR": 508931,
+        "visits": 23722,
+        "orders": 238,
+        "spendSAR": 23000,
+        "roas": 22.13
+      },
+      "sections": [
+        {
+          "heading": {
+            "en": "The insight",
+            "ar": "الإنسايت"
+          },
+          "body": {
+            "en": "An average order of ≈2,138 SAR changes the maths: fewer, richer buyers — so targeting aimed at intent, not traffic. 22× return on 23K SAR.",
+            "ar": "متوسط طلب حوالي ٢٬١٣٨ ريال بيغيّر الحسبة: مشترين أقل بس قيمتهم أعلى — فالتارجت كان على النية مش على الزيارات. عائد ٢٢ ضعف على ٢٣ ألف ريال."
+          }
+        }
+      ],
+      "proof": [
+        {
+          "src": "assets/work/cases/operamck-feb-2024.jpg",
+          "caption": {
+            "en": "Store monthly summary — Feb 2024",
+            "ar": "ملخص المتجر — فبراير ٢٠٢٤"
+          }
+        }
+      ]
+    },
+    {
+      "id": "oneline",
+      "client": "One Line — ون لاين",
+      "logo": "oneline",
+      "niche": {
+        "en": "Car charcoal · TikTok + Snapchat",
+        "ar": "فحم سيارات · تيك توك + سناب شات"
+      },
+      "period": {
+        "en": "Sep 2023 – Dec 2024",
+        "ar": "سبتمبر ٢٠٢٣ – ديسمبر ٢٠٢٤"
+      },
+      "headline": {
+        "en": "10 creatives and one after-sales offer",
+        "ar": "١٠ كريتيفات وعرض واحد بعد البيع"
+      },
+      "metrics": {
+        "salesSAR": 660997.3,
+        "netSAR": 647539.16,
+        "orders": 1898,
+        "spendSAR": 51590,
+        "roas": 12.81
+      },
+      "sections": [
+        {
+          "heading": {
+            "en": "Strategy",
+            "ar": "الاستراتيجية"
+          },
+          "body": {
+            "en": "Ten creatives across AGC, UGC, gain and pain angles; a local-manufacturing story; and an installation discount after the sale to remove the last purchase barrier.",
+            "ar": "عشر كريتيفات بزوايا AGC وUGC والمكسب والألم؛ وقصة التصنيع المحلي؛ وخصم تركيب بعد البيع يشيل آخر حاجز قبل الشراء."
+          }
+        },
+        {
+          "heading": {
+            "en": "Result",
+            "ar": "النتيجة"
+          },
+          "body": {
+            "en": "1,898 orders and 661K SAR in sales (647.5K net) — almost no discount coupons needed.",
+            "ar": "١٬٨٩٨ طلب و٦٦١ ألف ريال مبيعات (٦٤٧٫٥ ألف صافي) — تقريبًا من غير كوبونات خصم."
+          }
+        }
+      ],
+      "proof": [
+        {
+          "src": "assets/work/cases/oneline-store-sales.jpg",
+          "caption": {
+            "en": "Store sales & orders — Sep 2023 to Dec 2024",
+            "ar": "مبيعات وطلبات المتجر — سبتمبر ٢٠٢٣ لديسمبر ٢٠٢٤"
+          }
+        }
+      ]
+    },
+    {
+      "id": "wanasim",
+      "client": "Wanasim Al Ward — ونسيم الورد",
+      "logo": null,
+      "niche": {
+        "en": "Gifts & flowers",
+        "ar": "هدايا وورد"
+      },
+      "period": {
+        "en": "August 2024",
+        "ar": "أغسطس ٢٠٢٤"
+      },
+      "headline": {
+        "en": "Selling the occasion, not the flower: 13.7× ROAS",
+        "ar": "بيع المناسبة مش الوردة: ROAS ١٣٫٧"
+      },
+      "metrics": {
+        "salesSAR": 520112,
+        "goalSAR": 550000,
+        "visits": 78205,
+        "orders": 908,
+        "spendSAR": 38000,
+        "roas": 13.69
+      },
+      "proof": []
+    },
+    {
+      "id": "asas",
+      "client": "Asas Factory — مصنع أساس",
+      "logo": null,
+      "niche": {
+        "en": "Tea & coffee · B2B & B2C",
+        "ar": "شاي وقهوة · B2B وB2C"
+      },
+      "period": {
+        "en": "2024 – 2025",
+        "ar": "٢٠٢٤ – ٢٠٢٥"
+      },
+      "headline": {
+        "en": "Repeat buyers: +119.77% growth",
+        "ar": "المشتري اللي بيرجع: نمو +١١٩٫٧٧٪"
+      },
+      "metrics": {
+        "salesSAR": 1133423.51,
+        "orders": 3818,
+        "spendSAR": 136000,
+        "roas": 8.33,
+        "growth": 1.1977
+      },
+      "proof": []
+    },
+    {
+      "id": "home-electronics",
+      "client": "Home Electronics — إلكترونيات منزلية",
+      "logo": null,
+      "niche": {
+        "en": "Electronics",
+        "ar": "إلكترونيات"
+      },
+      "period": {
+        "en": "April 2024",
+        "ar": "أبريل ٢٠٢٤"
+      },
+      "headline": {
+        "en": "8K SAR in, 151.8K SAR out",
+        "ar": "٨ آلاف ريال صرف ← ١٥١٫٨ ألف مبيعات"
+      },
+      "metrics": {
+        "salesSAR": 151769,
+        "goalSAR": 150000,
+        "visits": 14635,
+        "orders": 139,
+        "spendSAR": 8000,
+        "roas": 18.97
+      },
+      "proof": []
+    }
+  ],
+  "leadGenCases": [
+    {
+      "id": "alahli-snapchat",
+      "client": "Al-Ahli Marketing — الأهلي للتسويق",
+      "logo": "alahly",
+      "platform": "Snapchat",
+      "period": {
+        "en": "Dec 1, 2024 – Feb 3, 2026",
+        "ar": "١ ديسمبر ٢٠٢٤ – ٣ فبراير ٢٠٢٦"
+      },
+      "headline": {
+        "en": "14 months, 3,189 leads — run in waves, not always-on",
+        "ar": "١٤ شهر و٣٬١٨٩ ليد — بموجات مش بصرف مستمر"
+      },
+      "metrics": {
+        "spendUSD": 25835.62,
+        "impressions": 5308426,
+        "clicks": 20758,
+        "ctr": 0.0039,
+        "leads": 3189,
+        "cplUSD": 8.1
+      },
+      "sections": [
+        {
+          "heading": {
+            "en": "The challenge",
+            "ar": "التحدي"
+          },
+          "body": {
+            "en": "Keep a marketing agency’s pipeline full for more than a year on Snapchat without the cost per lead drifting up.",
+            "ar": "إزاي تفضل ماسورة العملاء لوكالة تسويق مليانة أكتر من سنة على سناب شات من غير ما تكلفة الليد تعلى."
+          }
+        },
+        {
+          "heading": {
+            "en": "Structure",
+            "ar": "الستراكشر"
+          },
+          "body": {
+            "en": "Audiences built on the customer journey rather than age/interest boxes, and budget released in waves — the spend line shows clear pushes (Feb, Apr, Jul–Aug, Oct–Nov 2025) with quiet periods between them.",
+            "ar": "جماهير مبنية على رحلة العميل بدل خانات السن والاهتمامات، والميزانية بتنزل على موجات — خط الصرف بيوضح دفعات واضحة (فبراير، أبريل، يوليو–أغسطس، أكتوبر–نوفمبر ٢٠٢٥) وبينها فترات هدوء."
+          }
+        },
+        {
+          "heading": {
+            "en": "The insight",
+            "ar": "الإنسايت"
+          },
+          "body": {
+            "en": "Pulsing kept the creative fresh and the cost per lead flat at ≈$8 across 5.3M impressions — volume without fatigue.",
+            "ar": "الموجات خلّت الكريتيف فريش وتكلفة الليد ثابتة حوالي ٨ دولار على ٥٫٣ مليون ظهور — حجم من غير ما الجمهور يزهق."
+          }
+        }
+      ],
+      "proof": [
+        {
+          "src": "assets/work/cases/alahli-snapchat-overview.jpg",
+          "caption": {
+            "en": "Snapchat Ads — Dec 2024 to Feb 2026",
+            "ar": "إعلانات سناب شات — ديسمبر ٢٠٢٤ لفبراير ٢٠٢٦"
+          }
+        }
+      ]
+    },
+    {
+      "id": "snapchat-leadgen",
+      "client": "Al-Ahli Marketing — الأهلي للتسويق",
+      "logo": "alahly",
+      "platform": "Snapchat",
+      "period": {
+        "en": "Apr 1 – Oct 12, 2025",
+        "ar": "١ أبريل – ١٢ أكتوبر ٢٠٢٥"
+      },
+      "headline": {
+        "en": "Holding $8.06 per lead for six months",
+        "ar": "تكلفة ٨٫٠٦ دولار لليد ثابتة ٦ شهور"
+      },
+      "metrics": {
+        "spendUSD": 9132.15,
+        "impressions": 2822093,
+        "clicks": 8622,
+        "ctr": 0.0031,
+        "leads": 1133,
+        "cplUSD": 8.06
+      },
+      "sections": [
+        {
+          "heading": {
+            "en": "Objective",
+            "ar": "الهدف"
+          },
+          "body": {
+            "en": "A steady lead flow through spring and summer at a predictable cost.",
+            "ar": "تدفق ليدز ثابت طول الربيع والصيف بتكلفة متوقعة."
+          }
+        },
+        {
+          "heading": {
+            "en": "What the chart shows",
+            "ar": "الشارت بيقول إيه"
+          },
+          "body": {
+            "en": "Leads and cost per lead move in opposite directions: the biggest lead spikes (late July, mid-September) land when CPL is at its lowest — scaling happened only when the auction was cheap.",
+            "ar": "الليدز وتكلفة الليد ماشيين عكس بعض: أكبر قفزات في الليدز (آخر يوليو ونص سبتمبر) جات وقت ما التكلفة كانت في أقل حالاتها — السكيل كان بيحصل بس لما المزاد يبقى رخيص."
+          }
+        }
+      ],
+      "proof": [
+        {
+          "src": "assets/work/cases/snapchat-leadgen-overview.jpg",
+          "caption": {
+            "en": "Leads vs cost per lead — Apr to Oct 2025",
+            "ar": "الليدز مقابل تكلفة الليد — أبريل لأكتوبر ٢٠٢٥"
+          }
+        }
+      ]
+    },
+    {
+      "id": "snapchat-b2b",
+      "client": "B2B client — Snapchat",
+      "logo": null,
+      "platform": "Snapchat",
+      "period": {
+        "en": "Sep 10 – Oct 12, 2025 (active)",
+        "ar": "١٠ سبتمبر – ١٢ أكتوبر ٢٠٢٥ (فترة التشغيل)"
+      },
+      "headline": {
+        "en": "A five-week B2B sprint on a consumer platform",
+        "ar": "سبرنت B2B خمس أسابيع على منصة استهلاكية"
+      },
+      "metrics": {
+        "spendUSD": 2031.07,
+        "impressions": 373615,
+        "clicks": 1663,
+        "ctr": 0.0045,
+        "leads": 261,
+        "cplUSD": 7.78
+      },
+      "sections": [
+        {
+          "heading": {
+            "en": "The bet",
+            "ar": "الرهان"
+          },
+          "body": {
+            "en": "Snapchat isn’t the obvious B2B channel. The account sat idle until September, then ran a tight five-week test.",
+            "ar": "سناب شات مش القناة المتوقعة للـ B2B. الحساب كان واقف لحد سبتمبر، وبعدين اشتغل تيست مركز خمس أسابيع."
+          }
+        },
+        {
+          "heading": {
+            "en": "The result",
+            "ar": "النتيجة"
+          },
+          "body": {
+            "en": "The highest click rate of the three Snapchat cases (0.45%) and the lowest cost per lead ($7.78) — 261 business leads for ≈$2K.",
+            "ar": "أعلى نسبة نقر في حالات سناب التلاتة (٠٫٤٥٪) وأقل تكلفة لليد (٧٫٧٨ دولار) — ٢٦١ ليد بيزنس بحوالي ٢ ألف دولار."
+          }
+        }
+      ],
+      "proof": [
+        {
+          "src": "assets/work/cases/snapchat-b2b-overview.jpg",
+          "caption": {
+            "en": "Spend vs impressions — activity starts Sep 2025",
+            "ar": "الصرف مقابل الظهور — التشغيل بدأ سبتمبر ٢٠٢٥"
+          }
+        }
+      ]
+    },
+    {
+      "id": "meta-b2b-b2c",
+      "client": "TODO client",
+      "logo": null,
+      "platform": "Meta",
+      "period": {
+        "en": "Apr 1 – Oct 12, 2025",
+        "ar": "١ أبريل – ١٢ أكتوبر ٢٠٢٥"
+      },
+      "headline": {
+        "en": "One creative test carried 60% of the results",
+        "ar": "تيست كريتيف واحد شال ٦٠٪ من النتايج"
+      },
+      "metrics": {
+        "spendUSD": 7355.48,
+        "conversations": 1524,
+        "cplUSD": 4.82
+      },
+      "sections": [
+        {
+          "heading": {
+            "en": "Structure",
+            "ar": "الستراكشر"
+          },
+          "body": {
+            "en": "Five campaigns driving messaging conversations across business and consumer audiences: creative tests, an engagement campaign and a lead-form test.",
+            "ar": "خمس حملات بتفتح محادثات رسائل مع جمهور البيزنس والأفراد: تيستات كريتيف، وحملة تفاعل، وتيست فورم ليدز."
+          }
+        },
+        {
+          "heading": {
+            "en": "The insight",
+            "ar": "الإنسايت"
+          },
+          "body": {
+            "en": "The duplicated “creative data 20/7” campaign alone produced 908 of 1,524 conversations. Finding the winning creative and duplicating it beat spreading budget evenly.",
+            "ar": "نسخة حملة «creative data 20/7» لوحدها جابت ٩٠٨ من ١٬٥٢٤ محادثة. إنك تلاقي الكريتيف الكسبان وتعمله نسخة أحسن من إنك توزّع الميزانية بالتساوي."
+          }
+        }
+      ],
+      "proof": [
+        {
+          "src": "assets/work/cases/meta-b2b-b2c-campaigns.jpg",
+          "caption": {
+            "en": "Meta Ads Manager — Apr to Oct 2025",
+            "ar": "مدير إعلانات ميتا — أبريل لأكتوبر ٢٠٢٥"
+          }
+        }
+      ]
+    },
+    {
+      "id": "meta-b2b-contract",
+      "client": "TODO client",
+      "logo": null,
+      "platform": "Meta",
+      "period": {
+        "en": "2024 – 2025",
+        "ar": "٢٠٢٤ – ٢٠٢٥"
+      },
+      "headline": {
+        "en": "A performance contract: 2,162 conversations at $5.27",
+        "ar": "عقد أداء: ٢٬١٦٢ محادثة بـ ٥٫٢٧ دولار"
+      },
+      "metrics": {
+        "spendUSD": 11394.38,
+        "conversations": 2162,
+        "cplUSD": 5.27
+      },
+      "sections": [
+        {
+          "heading": {
+            "en": "Accountability",
+            "ar": "المحاسبة على النتيجة"
+          },
+          "body": {
+            "en": "Paid on performance, so every campaign had to earn its place: 13 campaigns across engagement, lead forms, traffic and WhatsApp sales, with hook rates held around 15–19%.",
+            "ar": "الدفع على الأداء، فكل حملة لازم تثبت إنها تستاهل مكانها: ١٣ حملة ما بين تفاعل وفورم ليدز وترافيك ومبيعات عبر واتساب، والـ Hook Rate ثابت حوالي ١٥–١٩٪."
+          }
+        },
+        {
+          "heading": {
+            "en": "The insight",
+            "ar": "الإنسايت"
+          },
+          "body": {
+            "en": "Two creative-led campaigns (908 + 481) delivered 64% of all conversations; lead-form tests that didn’t convert were switched off early.",
+            "ar": "حملتين معتمدين على الكريتيف (٩٠٨ + ٤٨١) جابوا ٦٤٪ من المحادثات، وتيستات الفورم اللي ما جابتش نتيجة اتقفلت بدري."
+          }
+        }
+      ],
+      "proof": [
+        {
+          "src": "assets/work/cases/meta-b2b-contract-campaigns.jpg",
+          "caption": {
+            "en": "Meta Ads Manager — campaign breakdown",
+            "ar": "مدير إعلانات ميتا — تفاصيل الحملات"
+          }
+        }
+      ]
+    },
+    {
+      "id": "meta-advanced-targeting",
+      "client": "TODO client",
+      "logo": null,
+      "platform": "Meta",
+      "period": {
+        "en": "2025",
+        "ar": "٢٠٢٥"
+      },
+      "headline": {
+        "en": "Creative first: a 22% hook rate",
+        "ar": "الكريتيف الأول: Hook Rate ٢٢٪"
+      },
+      "metrics": {
+        "spendUSD": 3957.11,
+        "leads": 751,
+        "cplUSD": 5.26,
+        "hookRate": 0.22
+      },
+      "sections": [
+        {
+          "heading": {
+            "en": "The result",
+            "ar": "النتيجة"
+          },
+          "body": {
+            "en": "751 leads at $5.26 with a 22% hook rate — the scroll-stop did the targeting work.",
+            "ar": "٧٥١ ليد بـ ٥٫٢٦ دولار وHook Rate ٢٢٪ — وقف الإسكرول هو اللي عمل شغل التارجت."
+          }
+        }
+      ],
+      "proof": [],
+      "todo": [
+        "New screenshot to confirm"
+      ]
+    },
+    {
+      "id": "meta-leadgen",
+      "client": "TODO client",
+      "logo": null,
+      "platform": "Meta",
+      "period": {
+        "en": "2024 – 2025",
+        "ar": "٢٠٢٤ – ٢٠٢٥"
+      },
+      "headline": {
+        "en": "Twenty campaigns, one lesson: the offer is the targeting",
+        "ar": "عشرين حملة ودرس واحد: العرض هو التارجت"
+      },
+      "metrics": {
+        "spendUSD": 8886.94,
+        "conversations": 1638,
+        "cplUSD": 5.42
+      },
+      "sections": [
+        {
+          "heading": {
+            "en": "Structure",
+            "ar": "الستراكشر"
+          },
+          "body": {
+            "en": "Cold vs warm tests, retargeting, Instagram DM and WhatsApp campaigns, cinematic creative tests, plus an awareness campaign reaching 198.8K people to warm the market.",
+            "ar": "تيستات جمهور بارد مقابل دافي، وريتارجت، وحملات Instagram DM وواتساب، وتيستات كريتيف سينمائي، وحملة وعي وصلت لـ ١٩٨٫٨ ألف شخص عشان تسخّن السوق."
+          }
+        },
+        {
+          "heading": {
+            "en": "The insight",
+            "ar": "الإنسايت"
+          },
+          "body": {
+            "en": "Offer-led campaigns won: the discount campaign (357) and the founding campaign (205) were the top two by volume at ≈$2.6–4 per conversation, while the cinematic creative earned the best hook rate (30%).",
+            "ar": "الحملات المبنية على عرض هي اللي كسبت: حملة الخصم (٣٥٧) وحملة التأسيس (٢٠٥) كانوا الأعلى في الحجم بحوالي ٢٫٦–٤ دولار للمحادثة، والكريتيف السينمائي جاب أعلى Hook Rate (٣٠٪)."
+          }
+        }
+      ],
+      "proof": [
+        {
+          "src": "assets/work/cases/meta-leadgen-campaigns.jpg",
+          "caption": {
+            "en": "Meta Ads Manager — 20 campaigns",
+            "ar": "مدير إعلانات ميتا — ٢٠ حملة"
+          }
+        }
+      ]
+    }
+  ]
+}

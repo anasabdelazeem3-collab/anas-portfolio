@@ -1,0 +1,149 @@
+{
+  "ecomStoreCase": {
+    "id": "ecom-store-2025",
+    "client": {
+      "en": "Honey e-commerce store",
+      "ar": "متجر عسل إلكتروني"
+    },
+    "market": {
+      "en": "Saudi Arabia",
+      "ar": "السعودية"
+    },
+    "period": {
+      "en": "Jan 2025 – Aug 2026",
+      "ar": "يناير ٢٠٢٥ – أغسطس ٢٠٢٦"
+    },
+    "category": "ecommerce",
+    "platforms": [
+      "TikTok",
+      "Meta"
+    ],
+    "adSpend2025SAR": 120505.72,
+    "headline": {
+      "en": "Nearly 1M SAR in a year — and a clear map of what to cut",
+      "ar": "قرابة مليون ريال في سنة — وخريطة واضحة للي يتقطع"
+    },
+    "angle": {
+      "en": "A testing system, not a lucky campaign: structured ABO/CBO/Advantage+ tests, cut fast when they fail, budget concentrated on winners.",
+      "ar": "نظام تيست مش حملة محظوظة: تيستات ABO وCBO وAdvantage+ منظمة، والضعيف بيتقفل بسرعة، والميزانية بتتركز على الكسبان."
+    },
+    "store2025": {
+      "salesSAR": 973940,
+      "salesGrowth": 3.0272,
+      "orders": 2390,
+      "ordersGrowth": 2.9311,
+      "aovSAR": 393.9,
+      "aovGrowth": -0.0128,
+      "repeatPurchaseRate": 0.222,
+      "returnRate": 0.0004,
+      "abandonedCartRecovery": 0
+    },
+    "adsPlatform2025": {
+      "campaigns": 79,
+      "purchases": 1329,
+      "cpaSAR": 73.95,
+      "purchaseValueSAR": 367789.55,
+      "platformROAS": 4.069,
+      "impressions": 10920863,
+      "clicks": 112178,
+      "ctr": 0.0103,
+      "cpcSAR": 0.88,
+      "cpmSAR": 9,
+      "hookRate": 0.3608,
+      "addToCarts": 9112,
+      "costPerATC": 10.79
+    },
+    "meta2025Visible": {},
+    "meta2026Visible": {
+      "purchases": 1001,
+      "spendSAR": 55334.87,
+      "valueSAR": 201001.42,
+      "roas": 3.63,
+      "cpaSAR": 55.28
+    },
+    "sections": [
+      {
+        "heading": {
+          "en": "Snapshot",
+          "ar": "نظرة سريعة"
+        },
+        "body": {
+          "en": "Saudi honey e-commerce store, scaled on TikTok and Meta. 2025: 973.9K SAR in sales from 2.39K orders (+303% vs the previous period) on 120.5K SAR total ad spend — a blended ROAS of 8.08, AOV ≈394 SAR, 22.2% repeat-purchase rate and returns near zero.",
+          "ar": "متجر عسل إلكتروني في السعودية، اتعمله سكيل على تيك توك وميتا. في ٢٠٢٥: مبيعات ٩٧٣٫٩ ألف ريال من ٢٫٣٩ ألف طلب (+٣٠٣٪ عن الفترة السابقة) بإجمالي صرف إعلاني ١٢٠٫٥ ألف ريال — يعني ROAS إجمالي ٨٫٠٨، ومتوسط الطلب حوالي ٣٩٤ ريال، ونسبة تكرار شراء ٢٢٫٢٪، والمرتجعات تقريبًا صفر."
+        }
+      },
+      {
+        "heading": {
+          "en": "Account structure",
+          "ar": "ستراكشر الحساب"
+        },
+        "body": {
+          "en": "Campaigns named by method and launch date so every test is traceable: Advantage+ sales, ABO vs CBO splits, lookalike (LLK) and new-acquisition audiences, “edge” creative tests, a traffic campaign for cheap reach, and messaging campaigns that start sales conversations. 79 campaigns on one platform in 2025 alone — testing was the engine.",
+          "ar": "الحملات متسمية بطريقة الشغل وتاريخ الإطلاق عشان كل تيست يبقى متتبع: Advantage+ للمبيعات، وتقسيم ABO مقابل CBO، وجماهير Lookalike واستحواذ جديد، وتيستات كريتيف «edge»، وحملة ترافيك لوصول رخيص، وحملات رسائل بتفتح محادثات بيع. ٧٩ حملة على منصة واحدة في ٢٠٢٥ لوحدها — التيست كان هو المحرك."
+        }
+      },
+      {
+        "heading": {
+          "en": "Results",
+          "ar": "النتايج"
+        },
+        "body": {
+          "en": "2025 on TikTok: 1,329 purchases worth 367.8K SAR (platform ROAS 4.07) from ≈98K SAR — 10.9M impressions at a 9 SAR CPM and a 36% hook rate. On Meta, the Black-Friday-season Advantage+ test hit ROAS 5.24 at a 36 SAR CPA. 2026 (Jan–Aug, visible campaigns): 1,001 purchases, 201K SAR value, ROAS 3.63.",
+          "ar": "في ٢٠٢٥ على تيك توك: ١٬٣٢٩ عملية شراء بقيمة ٣٦٧٫٨ ألف ريال (ROAS المنصة ٤٫٠٧) من حوالي ٩٨ ألف ريال — ١٠٫٩ مليون ظهور بـ CPM ٩ ريال وHook Rate ٣٦٪. وعلى ميتا، تيست Advantage+ في موسم الجمعة البيضاء جاب ROAS ٥٫٢٤ بتكلفة شراء ٣٦ ريال. وفي ٢٠٢٦ (يناير–أغسطس، الحملات الظاهرة): ١٬٠٠١ عملية شراء بقيمة ٢٠١ ألف ريال وROAS ٣٫٦٣."
+        }
+      },
+      {
+        "heading": {
+          "en": "The insight",
+          "ar": "الإنسايت"
+        },
+        "body": {
+          "en": "Concentration beats spread: in 2026 three campaigns took 62% of the budget and returned 75% of the value (ROAS 4.39), while failed tests were cut at ≈14% of spend. And the next lever is visible in the data: 8.1% of clicks add to cart but only 14.6% of carts buy — with abandoned-cart recovery at 0%, the cart is where the next growth is.",
+          "ar": "التركيز أحسن من التشتيت: في ٢٠٢٦ تلات حملات خدوا ٦٢٪ من الميزانية ورجّعوا ٧٥٪ من القيمة (ROAS ٤٫٣٩)، والتيستات الفاشلة اتقفلت عند حوالي ١٤٪ من الصرف. والخطوة الجاية باينة في الداتا: ٨٫١٪ من النقرات بتضيف للسلة، لكن ١٤٫٦٪ بس من السلات بتشتري — ومع إن استرداد السلات المتروكة ٠٪، يبقى النمو الجاي في السلة."
+        }
+      }
+    ],
+    "proof": [
+      {
+        "src": "assets/work/ecom-store/store-full-year-2025-hd.jpg",
+        "caption": {
+          "en": "Store analytics — full year 2025",
+          "ar": "تحليلات المتجر — سنة ٢٠٢٥ كاملة"
+        }
+      },
+      {
+        "src": "assets/work/ecom-store/store-jan-aug-2025-hd.jpg",
+        "caption": {
+          "en": "Store analytics — Jan–Aug 2025",
+          "ar": "تحليلات المتجر — يناير–أغسطس ٢٠٢٥"
+        }
+      },
+      {
+        "src": "assets/work/ecom-store/ads-platform-2025-campaigns-hd.jpg",
+        "caption": {
+          "en": "TikTok Ads — 79 campaigns, 2025",
+          "ar": "إعلانات تيك توك — ٧٩ حملة في ٢٠٢٥"
+        }
+      },
+      {
+        "src": "assets/work/ecom-store/meta-2025-campaigns-hd.jpg",
+        "caption": {
+          "en": "Meta Ads Manager — 2025",
+          "ar": "مدير إعلانات ميتا — ٢٠٢٥"
+        }
+      },
+      {
+        "src": "assets/work/ecom-store/meta-2026-campaigns-hd.jpg",
+        "caption": {
+          "en": "Meta Ads Manager — Jan–Aug 2026",
+          "ar": "مدير إعلانات ميتا — يناير–أغسطس ٢٠٢٦"
+        }
+      }
+    ],
+    "todo": [
+      "Store / client name and niche",
+      "Meta totals rows for 2025 and 2026 (only visible rows are summed)",
+      "Platform ROAS 4.069 vs value ÷ spend 3.74 — attribution setting differs; keep platform figure?"
+    ]
+  }
+}

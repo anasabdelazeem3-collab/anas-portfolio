@@ -1,0 +1,103 @@
+{
+  "alahlyLeadMagnet": {
+    "id": "alahly-matrix-lead-magnet",
+    "client": "Al-Ahly — مؤسسة الأهلي",
+    "category": "creative",
+    "funnelStage": "TOF",
+    "headline": {
+      "en": "The Matrix series: a lead magnet for cold audiences",
+      "ar": "سلسلة ماتريكس: ليد ماجنت للجمهور البارد"
+    },
+    "angle": {
+      "en": "Before asking anyone for their details, give them something worth watching — explainer content on how platforms, trends and algorithms really work.",
+      "ar": "قبل ما تطلب من حد بياناته، اديله حاجة تستاهل يتفرج عليها — محتوى بيشرح إزاي المنصات والتريندات والخوارزميات شغالة فعلًا."
+    },
+    "videos": [
+      {
+        "src": "assets/work/alahly/matrix-01-data.mp4",
+        "poster": "assets/work/alahly/matrix-01-data-poster.jpg",
+        "title": {
+          "en": "Episode 1 — Inside the data",
+          "ar": "الحلقة ١ — جوه الداتا"
+        },
+        "orientation": "landscape"
+      },
+      {
+        "src": "assets/work/alahly/matrix-02-search-diet.mp4",
+        "poster": "assets/work/alahly/matrix-02-search-diet-poster.jpg",
+        "title": {
+          "en": "Episode 2 — What people search for",
+          "ar": "الحلقة ٢ — الناس بتدوّر على إيه"
+        },
+        "orientation": "landscape"
+      },
+      {
+        "src": "assets/work/alahly/matrix-03-crowd-engagement.mp4",
+        "poster": "assets/work/alahly/matrix-03-crowd-engagement-poster.jpg",
+        "title": {
+          "en": "Episode 3 — The crowd & engagement",
+          "ar": "الحلقة ٣ — الجمهور والتفاعل"
+        },
+        "orientation": "landscape"
+      },
+      {
+        "src": "assets/work/alahly/matrix-04-algorithms-trend.mp4",
+        "poster": "assets/work/alahly/matrix-04-algorithms-trend-poster.jpg",
+        "title": {
+          "en": "Episode 4 — Trend, right timing & algorithms",
+          "ar": "الحلقة ٤ — التريند والتوقيت الصح والخوارزميات"
+        },
+        "orientation": "landscape"
+      },
+      {
+        "src": "assets/work/alahly/matrix-05-space.mp4",
+        "poster": "assets/work/alahly/matrix-05-space-poster.jpg",
+        "title": {
+          "en": "Episode 5 — Launch",
+          "ar": "الحلقة ٥ — الانطلاق"
+        },
+        "orientation": "landscape"
+      }
+    ],
+    "role": {
+      "en": "Concept + visual direction (motion graphics × AI)",
+      "ar": "الفكرة + الاتجاه البصري (موشن جرافيك × AI)"
+    },
+    "sections": [
+      {
+        "heading": {
+          "en": "Objective",
+          "ar": "الهدف"
+        },
+        "body": {
+          "en": "At the start of the account the goal was simple: views, and a lead magnet that pulls new prospects in from social media at the top of the funnel (TOF).",
+          "ar": "في بداية الشغل على الحساب الهدف كان واضح: مشاهدات، وليد ماجنت يجيب عملاء محتملين جدد من السوشيال ميديا في مرحلة أعلى الفانل (TOF)."
+        }
+      },
+      {
+        "heading": {
+          "en": "The format",
+          "ar": "الفورمات"
+        },
+        "body": {
+          "en": "A series, not one-off ads — each episode explains one idea (data, search, engagement, trends, algorithms) so the audience comes back for the next one. The call-to-action changed from episode to episode depending on its topic.",
+          "ar": "سلسلة مش إعلانات منفصلة — كل حلقة بتشرح فكرة واحدة (الداتا، البحث، التفاعل، التريند، الخوارزميات) عشان الجمهور يرجع للحلقة الجاية. والـ CTA كان بيختلف من حلقة للتانية حسب موضوعها."
+        }
+      },
+      {
+        "heading": {
+          "en": "My role",
+          "ar": "دوري"
+        },
+        "body": {
+          "en": "The idea, and how the visuals would be shot — combining motion graphics with AI.",
+          "ar": "الفكرة، وإزاي الفيجوال هيتصور — بدمج الموشن جرافيك مع الـ AI."
+        }
+      }
+    ],
+    "todo": [
+      "Episode titles above are inferred from the visuals — confirm real titles",
+      "Any results (views, leads, CPL) and platform"
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "name": "ANAS ORIGINALS — Anas Abdelazeem",
+  "colors": {
+    "purple": "#3a044f",
+    "lavender": "#9c91f3",
+    "orange": "#f29423",
+    "ink": "#141016",
+    "paper": "#f1efe9",
+    "white": "#ffffff"
+  },
+  "fonts": {
+    "display": "Unbounded 600/800/900 (EN headlines, numbers)",
+    "body": "Space Grotesk (EN) · Cairo (AR)",
+    "hand": "Caveat 600/700 (signature, notes)"
+  },
+  "logo": {
+    "full": "assets/brand/logo.png",
+    "small": "assets/brand/logo-256.png",
+    "favicon": "assets/brand/favicon.png",
+    "description": "Target + dart with Arabic wordmark أنس ع العظيم"
+  },
+  "direction": "Editorial zine: grid paper, giant PORTFOLIO wordmark with the logo as the O, handwritten signature, spinning ✸ ✦ ✳ marks, scanner photo frame, torn purple strip with marquee + photo sticker, ticket stats, 3D coverflow of cases, polaroid companies, Netflix-style art section, sticker client wall, torn contact footer.",
+  "motion": {
+    "pageTransition": "purple curtain wipe with logo (0.9s)",
+    "reveal": "elements fade/slide in on scroll",
+    "icons": "spin 8–14s linear",
+    "scanner": "orange scanline sweeps up/down over the photo (3.2s)",
+    "coverflow": "auto-advances every 3.8s, swipe/arrows",
+    "artTv": "background crossfades every 6s, thumbnails switch",
+    "reducedMotion": "all motion disabled for prefers-reduced-motion"
+  },
+  "contact": {
+    "email": "anasabdelazeem3@gmail.com",
+    "instagram": "https://www.instagram.com/anas.abdel3zeem/",
+    "linkedin": "https://www.linkedin.com/in/anas-abdelazeem-301b0a2a4/?locale=en",
+    "facebook": "https://www.facebook.com/anss.abdelazeem"
+  },
+  "rules": [
+    "Totals in USD across all accounts (SAR ÷ 3.75).",
+    "Monthly reports: numbers only, no Canva links.",
+    "Art projects: video first, then photos, then details.",
+    "Each acting project has a 4:5 cover taken from inside the project.",
+    "Client logo/sticker click opens its case study.",
+    "Don’t repeat personal photos; match each photo to its company."
+  ]
+}

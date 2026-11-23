@@ -1,0 +1,791 @@
+{
+  "artProjects": [
+    {
+      "id": "talabat-shahid",
+      "cover": "assets/art/covers/talabat-shahid.jpg",
+      "title": {
+        "en": "Talabat × Shahid VIP — TV commercial",
+        "ar": "طلبات × شاهد VIP — إعلان"
+      },
+      "category": {
+        "en": "Commercial · Actor (the Talabat rider)",
+        "ar": "إعلان · ممثل (طيار طلبات)"
+      },
+      "year": "2022",
+      "videos": [
+        {
+          "src": "assets/art/talabat/talabat-shahid-ad.mp4",
+          "poster": "assets/art/talabat/talabat-shahid-ad-poster.jpg",
+          "orientation": "landscape"
+        }
+      ],
+      "gallery": [
+        {
+          "src": "assets/art/talabat/06-fitting-check.jpg",
+          "caption": {
+            "en": "Wardrobe & helmet fitting",
+            "ar": "الفيتينج والخوذة"
+          }
+        },
+        {
+          "src": "assets/art/talabat/01-rider-helmet-selfie.jpg",
+          "caption": {
+            "en": "In character — the Talabat rider",
+            "ar": "في الكاركتر — طيار طلبات"
+          }
+        },
+        {
+          "src": "assets/art/talabat/02-helmet-in-hand.jpg",
+          "caption": {
+            "en": "Between takes — head shaved before army service",
+            "ar": "بين اللقطات — الشعر محلوق قبل دخول الجيش"
+          }
+        },
+        {
+          "src": "assets/art/talabat/03-on-set-with-crew.jpg",
+          "caption": {
+            "en": "On set with the crew",
+            "ar": "في اللوكيشن مع فريق العمل"
+          }
+        },
+        {
+          "src": "assets/art/talabat/04-helmet-closeup.jpg",
+          "caption": {
+            "en": "Waiting for the call",
+            "ar": "في انتظار الأكشن"
+          }
+        },
+        {
+          "src": "assets/art/talabat/05-visor-down.jpg",
+          "caption": {
+            "en": "Visor down",
+            "ar": "الخوذة مقفولة"
+          }
+        }
+      ],
+      "sections": [
+        {
+          "heading": {
+            "en": "The offer",
+            "ar": "العرض"
+          },
+          "body": {
+            "en": "Shahid ran a general offer: VIP for EGP 20. The side offer came with Talabat — with every Talabat order you get a Shahid VIP Mobile subscription for free, and can continue on VIP for EGP 20 afterwards. Picture the customer seeing how much value they get, for just EGP 20.",
+            "ar": "شاهد كان عامل عرض عام: اشتراك VIP بـ ٢٠ جنيه. أما العرض الجانبي فكان مع طلبات: مع كل أوردر من طلبات هتاخد اشتراك شاهد VIP موبايل ببلاش، وتقدر تكمّل بعدها في الـ VIP بـ ٢٠ جنيه. متخيل العميل شاف قد إيه هيستفاد، وبـ ٢٠ جنيه بس!"
+          }
+        },
+        {
+          "heading": {
+            "en": "The timing",
+            "ar": "التوقيت"
+          },
+          "body": {
+            "en": "The campaign landed around September–November, in offers season heading into White Friday — and right when the series \"Mawdoo3 3a2ely\" was trending, followed by \"Room 207\". Then came Ronaldo in Saudi Arabia and the start of the Roshn League. It read as a planned strategy across a full quarter, continuing through Ramadan with influencers and actors.",
+            "ar": "الحملة نزلت تقريبًا من شهر ٩ لحد ١١، في موسم العروض وداخلين على الجمعة البيضاء، ووقتها كان مسلسل «موضوع عائلي» تريند، وبعده دخل «غرفة ٢٠٧»، ومننساش الدون في السعودية وبداية دوري روشن. ولحد رمضان عملوا شغل حلو مع كام إنفلونسر وكام ممثل — كاستراتيجية وخطة مدروسة لكوارتر كامل."
+          }
+        },
+        {
+          "heading": {
+            "en": "Why it works — the funnel",
+            "ar": "ليه الحملة شغالة — الفانل"
+          },
+          "body": {
+            "en": "A customer who may or may not know you becomes a permanent prospect living inside your app. Two apps, double return. The customer journey completes and loyalty goes up because the offer is genuinely good. Inside the app you can upsell and cross-sell, and use tracking and analytics to learn what each person is into — series, wrestling, cartoons, anime, matches — and serve it to them.",
+            "ar": "من عميل ميعرفكش أو يعرفك، عملتلي عميل محتمل دايم بايت جوه الـ App. تطبيقين وعائد مزدوج. الفانل أو رحلة العميل كملت ورفعت الولاء لأنه عرض كويس. وجوه التطبيق أقدر أعمل Upsell وCross-selling، وبالتراكينج والتحليلات أعرف اهتماماتك وميولك أكتر، فأجيبلك المسلسلات والمصارعة والكارتون والأنمي والماتشات."
+          }
+        },
+        {
+          "heading": {
+            "en": "On set — my side of it",
+            "ar": "في اللوكيشن — دوري أنا"
+          },
+          "body": {
+            "en": "My job was acting, first and foremost. That’s what I cared about — not who the campaign was for or what it was saying. Around the performance I was focused on lighting and make-up for the character, the fitting, the director and production, the storyboard, playing off the actors beside me, finding my frame and angle, and keeping my continuity (raccord).",
+            "ar": "شغلي كان التمثيل أولًا. ده اللي كنت مهتم بيه، مش الحملة أو الإعلان لمين وبيقول إيه. وحوالين الأداء كنت مركّز في الإضاءة والميكب للكاركتر، والفيتينج، والمخرج والإنتاج والتجهيز، والاستوري بورد، وأدائي مع الممثلين جنبي، وهاخد الكادر وزاويتي منين، والراكور بتاعي إيه."
+          }
+        },
+        {
+          "heading": {
+            "en": "The cut — the lesson",
+            "ar": "القص — الدرس"
+          },
+          "body": {
+            "en": "When the ad came back in front of me, I noticed my part was longer and had been cut — and honestly, thank God it was. They kept only what served the idea and the offer. Don’t settle for the first idea or the first version of what you produce: always think how to use it from more than one angle.",
+            "ar": "لما الإعلان عدّى قدامي تاني، شفت إن الفيديو بتاعي كان أطول من كده بس اتقص — والحمد لله إنه اتقص. قصّوا اللي يخدم الفكرة والـ Offer وبس. متتبسطش بأول فكرة، ولا بأول إنتاج للقطعة اللي عملتها؛ فكّر دايمًا إزاي تستفيد بيها من أكتر من زاوية."
+          }
+        },
+        {
+          "heading": {
+            "en": "Every journey leads to the next",
+            "ar": "كل رحلة سبب لرحلة جديدة"
+          },
+          "body": {
+            "en": "I had just shaved my head — I was about to join the army. That period away from Cairo’s pace turned out to be one of the best of my life, and it made me ask what I really need. Learn something useful from every stage, merge it all together — it ends up serving your work.",
+            "ar": "وساعتها كنت داخل الجيش فحلقت. والفترة دي كلها كانت غربة، ومن أحسن فترات حياتي — بيئة انضباطية قرّبتني من ربنا — وخلتني أفكر أنا محتاج إيه. خلّص كل مرحلة واتعلم منها حاجة تفيدك، وادمج كل ده مع بعض — هيفيدك في شغلك. كل منطقة ورحلة فيها سبب لرحلة جديدة، اعرف السبب ده."
+          }
+        }
+      ]
+    },
+    {
+      "id": "alhafid",
+      "cover": "assets/art/covers/alhafid.jpg",
+      "title": {
+        "en": "Al Hafeed — Egyptian National Theater",
+        "ar": "الحفيد — المسرح القومي المصري"
+      },
+      "category": {
+        "en": "Theatre play · Role: Sami",
+        "ar": "مسرحية · دور: سامي"
+      },
+      "role": {
+        "en": "Sami",
+        "ar": "سامي"
+      },
+      "season": "2022 / 2023",
+      "description": {
+        "en": "Performed at the Egyptian National Theater, part of the Egyptian Fine Arts Sector. Adapted from the novel \"The Grandson and Omm El-Arousa\" by Abdul Hamid Gouda El-Sahhar.",
+        "ar": "عرض مسرحي على المسرح القومي المصري، تابع للبيت الفني المصري. النص مقتبس من رواية «الحفيد وأم العروسة» للأديب عبد الحميد جودة السحار."
+      },
+      "poster": "assets/art/alhafid/01-poster.jpg",
+      "gallery": [
+        {
+          "src": "assets/art/alhafid/02-full-stage.jpg",
+          "caption": {
+            "en": "Full stage view",
+            "ar": "المسرح كاملًا"
+          },
+          "wide": true
+        },
+        {
+          "src": "assets/art/alhafid/04-oud-solo.jpg",
+          "caption": {
+            "en": "On stage with the oud",
+            "ar": "على المسرح بالعود"
+          },
+          "wide": false
+        },
+        {
+          "src": "assets/art/alhafid/15-oud-closeup.jpg",
+          "caption": {
+            "en": "With the oud — photo: Hader Elsayed",
+            "ar": "بالعود — تصوير: هادر السيد"
+          },
+          "wide": false
+        },
+        {
+          "src": "assets/art/alhafid/05-galabeya-portrait.jpg",
+          "caption": {
+            "en": "A quiet moment",
+            "ar": "لحظة صامتة"
+          },
+          "wide": false
+        },
+        {
+          "src": "assets/art/alhafid/03-hospital-scene.jpg",
+          "caption": {
+            "en": "The hospital scene",
+            "ar": "مشهد المستشفى"
+          },
+          "wide": false
+        },
+        {
+          "src": "assets/art/alhafid/06-argument.jpg",
+          "caption": {
+            "en": "The argument",
+            "ar": "مشهد الجدال"
+          },
+          "wide": false
+        },
+        {
+          "src": "assets/art/alhafid/07-trio-confrontation.jpg",
+          "caption": {
+            "en": "Three-way confrontation",
+            "ar": "مواجهة ثلاثية"
+          },
+          "wide": false
+        },
+        {
+          "src": "assets/art/alhafid/08-vest-trio.jpg",
+          "caption": {
+            "en": "With the cast",
+            "ar": "مع فريق العمل"
+          },
+          "wide": false
+        },
+        {
+          "src": "assets/art/alhafid/09-vest-trio-tears.jpg",
+          "caption": {
+            "en": "The emotional turn",
+            "ar": "لحظة التحوّل"
+          },
+          "wide": false
+        },
+        {
+          "src": "assets/art/alhafid/10-father-son.jpg",
+          "caption": {
+            "en": "Father and son",
+            "ar": "الأب والابن"
+          },
+          "wide": false
+        },
+        {
+          "src": "assets/art/alhafid/11-dance-number.jpg",
+          "caption": {
+            "en": "The dance number",
+            "ar": "الفاصل الاستعراضي"
+          },
+          "wide": false
+        },
+        {
+          "src": "assets/art/alhafid/12-family-music.jpg",
+          "caption": {
+            "en": "The family music scene",
+            "ar": "المشهد الغنائي العائلي"
+          },
+          "wide": false
+        },
+        {
+          "src": "assets/art/alhafid/13-musical-finale.jpg",
+          "caption": {
+            "en": "Musical finale",
+            "ar": "الختام الغنائي"
+          },
+          "wide": false
+        },
+        {
+          "src": "assets/art/alhafid/14-living-room.jpg",
+          "caption": {
+            "en": "The living-room scene",
+            "ar": "مشهد غرفة المعيشة"
+          },
+          "wide": true
+        }
+      ],
+      "credits": [
+        [
+          {
+            "en": "My role",
+            "ar": "دوري"
+          },
+          "سامي — Sami"
+        ],
+        [
+          {
+            "en": "Based on the novel by",
+            "ar": "مقتبس من رواية"
+          },
+          "عبد الحميد جودة السحار — Abdul Hamid Gouda El-Sahhar"
+        ],
+        [
+          {
+            "en": "Dramaturgy & direction",
+            "ar": "دراماتورج وإخراج"
+          },
+          "يوسف المنصور — Youssef El Mansour"
+        ],
+        [
+          {
+            "en": "Venue",
+            "ar": "المكان"
+          },
+          "المسرح القومي المصري — البيت الفني المصري"
+        ]
+      ]
+    },
+    {
+      "id": "alwan",
+      "cover": "assets/art/covers/alwan.jpg",
+      "title": {
+        "en": "Alwan (Colors) — my first acting work",
+        "ar": "ألوان — أول أعمالي التمثيلية"
+      },
+      "category": {
+        "en": "Short film · Lead actor",
+        "ar": "فيلم قصير · ممثل"
+      },
+      "description": {
+        "en": "A short film about addiction, striving and slacking, procrastination, and escaping reality in harmful ways. A young man lost in his dreams loses himself when he disconnects from reality — running without refuge, calling for help, but his voice goes unheard.",
+        "ar": "فيلم قصير عن الإدمان، والسعي والتكاسل، والتسويف، والهروب من الواقع بأساليب مضرة. عن شاب غرق في أحلامه فتاه عن نفسه لما بعد عن الواقع؛ بقى يجري من غير ملجأ، ينادي ويستغيث، لكن صوته مش مسموع."
+      },
+      "url": "https://www.facebook.com/reel/380622167885403",
+      "poster": "assets/art/alwan/01-poster.jpg",
+      "gallery": [],
+      "credits": [
+        [
+          {
+            "en": "Actor",
+            "ar": "تمثيل"
+          },
+          "Anas Abd Elazeem"
+        ],
+        [
+          {
+            "en": "Directed by",
+            "ar": "إخراج"
+          },
+          "Eslam Hilal"
+        ],
+        [
+          {
+            "en": "Scriptwriter",
+            "ar": "سيناريو"
+          },
+          "Mohamed Hilal"
+        ],
+        [
+          {
+            "en": "Music",
+            "ar": "موسيقى"
+          },
+          "Ramy Elkasaby"
+        ],
+        [
+          {
+            "en": "Voiceover",
+            "ar": "تعليق صوتي"
+          },
+          "Mohamed Elkholy"
+        ],
+        [
+          {
+            "en": "Translation",
+            "ar": "ترجمة"
+          },
+          "Ahmed Samak"
+        ],
+        [
+          {
+            "en": "Typography",
+            "ar": "تايبوجرافي"
+          },
+          "Ahmed Yahia"
+        ],
+        [
+          {
+            "en": "Poster design",
+            "ar": "تصميم البوستر"
+          },
+          "Heba Akram"
+        ]
+      ]
+    },
+    {
+      "id": "fall-in-love",
+      "cover": "assets/art/covers/fall-in-love.jpg",
+      "title": {
+        "en": "How Do You Make Two People Fall in Love?",
+        "ar": "كيف تجعل اثنان يقعان في الحب؟"
+      },
+      "category": {
+        "en": "Award-winning short documentary",
+        "ar": "فيلم تسجيلي قصير حائز على جوائز"
+      },
+      "description": {
+        "en": "A short documentary produced by El-Nahda / Jesuit Cairo, screened at festivals in Egypt and abroad.",
+        "ar": "فيلم تسجيلي قصير من إنتاج جمعية النهضة / جزويت القاهرة، عُرض في مهرجانات داخل مصر وخارجها."
+      },
+      "url": "https://www.facebook.com/share/v/19cKY6rhJB/",
+      "poster": "assets/art/fall-in-love/02-poster-bw.jpg",
+      "gallery": [
+        {
+          "src": "assets/art/fall-in-love/01-screening-alexandria.jpg",
+          "caption": {
+            "en": "Screening at Jesuit Cultural Center, Alexandria",
+            "ar": "العرض في مركز الجزويت الثقافي بالإسكندرية"
+          },
+          "wide": true
+        },
+        {
+          "src": "assets/art/fall-in-love/02-poster-bw.jpg",
+          "caption": {
+            "en": "Official poster",
+            "ar": "الملصق الرسمي"
+          },
+          "wide": false
+        },
+        {
+          "src": "assets/art/fall-in-love/03-poster-cast.jpg",
+          "caption": {
+            "en": "Official poster with cast",
+            "ar": "الملصق الرسمي مع فريق العمل"
+          },
+          "wide": false
+        },
+        {
+          "src": "assets/art/fall-in-love/04-ismailia-first-prize.jpg",
+          "caption": {
+            "en": "1st Prize — National Students Competition, Ismailia IFF 2022",
+            "ar": "المركز الأول — مسابقة الطلبة، مهرجان الإسماعيلية ٢٠٢٢"
+          },
+          "wide": false
+        }
+      ],
+      "awards": [
+        {
+          "en": "First place, Best Student Film — Ismailia International Film Festival, 2022",
+          "ar": "المركز الأول لأفضل فيلم طلابي — مهرجان الإسماعيلية السينمائي الدولي ٢٠٢٢"
+        },
+        {
+          "en": "Best Student Documentary — Manassat Film Festival, 2023",
+          "ar": "أفضل فيلم تسجيلي طلابي — مهرجان منصات ٢٠٢٣"
+        },
+        {
+          "en": "Best Short Documentary — 8th Participation Film Festival",
+          "ar": "أفضل فيلم تسجيلي قصير — مهرجان المشاركة الثامن"
+        }
+      ],
+      "selections": [
+        "Regards de Femmes 2022",
+        "Story? International Student Documentary Festival 2023",
+        "Hollywood Arab Film Festival 2023",
+        "YOUKI 2023"
+      ],
+      "credits": [
+        [
+          {
+            "en": "Produced & directed by",
+            "ar": "إنتاج وإخراج"
+          },
+          "Basma Sheren"
+        ],
+        [
+          {
+            "en": "Introducing",
+            "ar": "بطولة"
+          },
+          "Yara Ashraf · Anas Abd Elazeem · Mohamed Elsoury · Basma Sheren"
+        ],
+        [
+          {
+            "en": "Co-writer",
+            "ar": "مشاركة في الكتابة"
+          },
+          "Mohamed Elsoury"
+        ],
+        [
+          {
+            "en": "D.O.P",
+            "ar": "مدير التصوير"
+          },
+          "Mohamed Hasan · Summer Elfeky"
+        ],
+        [
+          {
+            "en": "Editing",
+            "ar": "مونتاج"
+          },
+          "Mohamed Bashir"
+        ],
+        [
+          {
+            "en": "Production",
+            "ar": "إنتاج"
+          },
+          "El-Nahda Association for Scientific & Cultural Renaissance"
+        ]
+      ]
+    },
+    {
+      "id": "elfar3i",
+      "cover": "assets/art/covers/elfar3i.jpg",
+      "title": {
+        "en": "El Far3i — Sumo",
+        "ar": "الفرعي — سومو"
+      },
+      "category": {
+        "en": "Music video",
+        "ar": "فيديو كليب"
+      },
+      "description": {
+        "en": "Appeared in a music video for the Jordanian singer El Far3i.",
+        "ar": "شاركت في فيديو كليب للمغني الأردني الفرعي."
+      },
+      "videoId": "CNB3LAeJKrg",
+      "gallery": [
+        {
+          "src": "assets/art/sumo/01-burning-newspaper.jpg",
+          "caption": {
+            "en": "The burning newspaper take",
+            "ar": "لقطة الجريدة المشتعلة"
+          }
+        },
+        {
+          "src": "assets/art/sumo/02-smoke-scene.jpg",
+          "caption": {
+            "en": "The smoke scene",
+            "ar": "مشهد الدخان"
+          }
+        },
+        {
+          "src": "assets/art/sumo/03-overhead-setup.jpg",
+          "caption": {
+            "en": "Setting up the overhead shot",
+            "ar": "تحضير اللقطة العلوية"
+          }
+        },
+        {
+          "src": "assets/art/sumo/04-monitor.jpg",
+          "caption": {
+            "en": "On the production monitor",
+            "ar": "على شاشة المراقبة"
+          }
+        },
+        {
+          "src": "assets/art/sumo/05-at-the-monitor.jpg",
+          "caption": {
+            "en": "Reviewing the take",
+            "ar": "مراجعة اللقطة"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ayam",
+      "cover": "assets/art/covers/ayam.jpg",
+      "title": {
+        "en": "Ayam — Mohamed Nawara ft. Wael Elfashny",
+        "ar": "أيام — محمد نواره مع وائل الفشني"
+      },
+      "category": {
+        "en": "Music video · One-shot take",
+        "ar": "فيديو كليب · لقطة واحدة مستمرة"
+      },
+      "year": "2022",
+      "description": {
+        "en": "Portrayed the Palestinian homeowner. The entire work was filmed in one continuous take.",
+        "ar": "جسّدت شخصية صاحب البيت الفلسطيني، وتم تصوير العمل بالكامل في لقطة واحدة مستمرة (One-shot take)."
+      },
+      "videoId": "OeK5_P8ftsE",
+      "url": "https://www.youtube.com/watch?v=OeK5_P8ftsE",
+      "gallery": [
+        {
+          "src": "assets/art/ayam/01-portrait.jpg",
+          "caption": {
+            "en": "Character portrait — release 22/2/22",
+            "ar": "بورتريه الشخصية — موعد الإصدار ٢٢/٢/٢٢"
+          }
+        },
+        {
+          "src": "assets/art/ayam/02-poster.jpg",
+          "caption": {
+            "en": "Official poster",
+            "ar": "البوستر الرسمي"
+          }
+        }
+      ],
+      "credits": [
+        [
+          {
+            "en": "Music & lyrics",
+            "ar": "موسيقى وكلمات"
+          },
+          "محمد نواره — Mohamed Nawara"
+        ],
+        [
+          {
+            "en": "Vocals",
+            "ar": "غناء"
+          },
+          "وائل الفشني — Wael Elfashny"
+        ]
+      ]
+    },
+    {
+      "id": "sacer-so-full-of-you",
+      "cover": "assets/art/covers/sacer-so-full-of-you.jpg",
+      "bg": "assets/art/thumbs/sacer-so-full-of-you.jpg",
+      "title": {
+        "en": "So Full of You — A conversation with my depression",
+        "ar": "So Full of You — حوار مع اكتئابي"
+      },
+      "category": {
+        "en": "Fashion short film · Scarabaeus Sacer · Lead",
+        "ar": "فيلم قصير لبراند ملابس · Scarabaeus Sacer · بطولة"
+      },
+      "description": {
+        "en": "The first of two short films for the streetwear brand Scarabaeus Sacer (Sacer.eco | Streetwear Lisbon), directed by Dibo and screened in Egypt and Europe.",
+        "ar": "الفيلم الأول من فيلمين قصيرين لبراند الملابس Scarabaeus Sacer (Sacer.eco | Streetwear Lisbon)، إخراج ديبو، وعُرضا في مصر وأوروبا."
+      },
+      "platform": "Instagram",
+      "url": "https://www.instagram.com/p/CQ_wduchlkT/",
+      "gallery": [
+        {
+          "src": "assets/art/sacer/01-so-full-of-you-poster.jpg",
+          "caption": {
+            "en": "Official poster",
+            "ar": "البوستر الرسمي"
+          }
+        },
+        {
+          "src": "assets/art/sacer/02-so-full-of-you-still.jpg",
+          "caption": {
+            "en": "Still from the film",
+            "ar": "لقطة من الفيلم"
+          },
+          "wide": true
+        }
+      ],
+      "credits": [
+        [
+          {
+            "en": "Presented by",
+            "ar": "تقديم"
+          },
+          "Scarabaeus Sacer"
+        ],
+        [
+          {
+            "en": "A film by",
+            "ar": "إخراج"
+          },
+          "Dibo"
+        ],
+        [
+          {
+            "en": "Partners",
+            "ar": "شركاء"
+          },
+          "kmt house · allthingsdibo · inhouse"
+        ]
+      ]
+    },
+    {
+      "id": "sacer-make-it-stop",
+      "cover": "assets/art/covers/sacer-make-it-stop.jpg",
+      "title": {
+        "en": "Make It Stop — A conversation with my anxiety",
+        "ar": "Make It Stop — حوار مع قلقي"
+      },
+      "category": {
+        "en": "Fashion short film · Scarabaeus Sacer · Lead",
+        "ar": "فيلم قصير لبراند ملابس · Scarabaeus Sacer · بطولة"
+      },
+      "description": {
+        "en": "The second short film for Scarabaeus Sacer, directed by Dibo — premiered with a screening event and shown in Egypt and Europe.",
+        "ar": "الفيلم القصير التاني لبراند Scarabaeus Sacer، إخراج ديبو — اتعمله عرض أول وعُرض في مصر وأوروبا."
+      },
+      "platform": "Instagram",
+      "url": "https://www.instagram.com/p/CUdBf5xjocc/",
+      "gallery": [
+        {
+          "src": "assets/art/sacer/03-make-it-stop-poster.jpg",
+          "caption": {
+            "en": "Official poster",
+            "ar": "البوستر الرسمي"
+          }
+        },
+        {
+          "src": "assets/art/sacer/04-make-it-stop-premiere.jpg",
+          "caption": {
+            "en": "At the premiere",
+            "ar": "في العرض الأول"
+          }
+        }
+      ],
+      "credits": [
+        [
+          {
+            "en": "Presented by",
+            "ar": "تقديم"
+          },
+          "Scarabaeus Sacer"
+        ],
+        [
+          {
+            "en": "A film by",
+            "ar": "إخراج"
+          },
+          "Dibo"
+        ],
+        [
+          {
+            "en": "Partners",
+            "ar": "شركاء"
+          },
+          "kmt house · allthingsdibo · inhouse"
+        ]
+      ]
+    },
+    {
+      "id": "storytel",
+      "title": {
+        "en": "Storytel — Imagine being a hero from your favourite novel",
+        "ar": "ستوريتل — تخيل أن تكون بطلًا من أبطال روايتك المفضلة"
+      },
+      "category": {
+        "en": "Commercial · Mad Hatter",
+        "ar": "إعلان · Mad Hatter"
+      },
+      "description": {
+        "en": "Played the Mad Hatter in a commercial for Storytel, the audiobook platform.",
+        "ar": "جسّدت شخصية Mad Hatter في إعلان لمنصة ستوريتل للكتب السمعية."
+      },
+      "videoId": "Ar27SkvJhZ4",
+      "url": "https://www.youtube.com/watch?v=Ar27SkvJhZ4",
+      "cover": "assets/art/covers/storytel.jpg",
+      "bg": "assets/art/storytel/02-hatter-stare.jpg",
+      "videos": [
+        {
+          "src": "assets/art/ads/storytel.mp4",
+          "poster": "assets/art/ads/storytel-poster.jpg",
+          "title": {
+            "en": "Storytel commercial — full ad",
+            "ar": "إعلان ستوريتل — كامل"
+          }
+        }
+      ],
+      "gallery": [
+        {
+          "src": "assets/art/storytel/02-hatter-stare.jpg",
+          "caption": {
+            "en": "The interview look — direct to camera: orange-red brows and a curly red wig frame the face",
+            "ar": "لقطة الإنترفيو، مباشرة للكاميرا: حواجب برتقاني محمّر وباروكة حمرا كيرلي حوالين الوش"
+          }
+        },
+        {
+          "src": "assets/art/storytel/01-hatter-smile.jpg",
+          "caption": {
+            "en": "Makeup: white base, red lines under the eyes and down the nose, crimson lips",
+            "ar": "المكياج: أساس أبيض، وخطوط حمرا تحت العين وعلى الأنف، وشفايف حمرا غامقة"
+          }
+        },
+        {
+          "src": "assets/art/storytel/03-hatter-full-costume.jpg",
+          "caption": {
+            "en": "Costume: top hat with a red satin band, oversized silk bow, tweed coat with brocade cuffs",
+            "ar": "اللبس: قبعة عالية بشريط ساتان أحمر، وفيونكة حرير كبيرة، وبالطو تويد بأساور مطرّزة"
+          }
+        }
+      ]
+    },
+    {
+      "id": "etisalat",
+      "title": {
+        "en": "Etisalat — 43rd Cairo International Film Festival",
+        "ar": "اتصالات — مهرجان القاهرة السينمائي الدولي ٤٣"
+      },
+      "category": {
+        "en": "Commercial · Mad Hatter",
+        "ar": "إعلان · Mad Hatter"
+      },
+      "description": {
+        "en": "Played the Mad Hatter in an Etisalat commercial celebrating the 43rd Cairo International Film Festival.",
+        "ar": "جسّدت شخصية Mad Hatter في إعلان لشركة اتصالات احتفالًا بالدورة ٤٣ من مهرجان القاهرة السينمائي الدولي."
+      },
+      "videoId": "YYibK2At10Q",
+      "url": "https://www.youtube.com/watch?v=YYibK2At10Q",
+      "cover": "assets/art/covers/etisalat.jpg",
+      "bg": "assets/art/storytel/03-hatter-full-costume.jpg",
+      "videos": [
+        {
+          "src": "assets/art/ads/etisalat.mp4",
+          "poster": "assets/art/ads/etisalat-poster.jpg",
+          "title": {
+            "en": "Etisalat × CIFF 43 commercial — full ad",
+            "ar": "إعلان اتصالات × مهرجان القاهرة ٤٣ — كامل"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "seetCase": {
+    "id": "seet-crm-pipeline",
+    "client": "Seet Marketing Foundation — مؤسسة صيت",
+    "industry": {
+      "en": "Marketing services (B2B)",
+      "ar": "خدمات تسويق (B2B)"
+    },
+    "market": {
+      "en": "Saudi Arabia",
+      "ar": "السعودية"
+    },
+    "period": {
+      "en": "Sep 1, 2025 – Apr 1, 2026",
+      "ar": "١ سبتمبر ٢٠٢٥ – ١ أبريل ٢٠٢٦"
+    },
+    "category": "lead-gen",
+    "headline": {
+      "en": "From ad to signed contract: owning the whole pipeline",
+      "ar": "من الإعلان للعقد: مسؤول عن الرحلة كاملة"
+    },
+    "angle": {
+      "en": "Not a CPL story — a closed-revenue story. Copy, launch, follow-up and CRM in one pair of hands.",
+      "ar": "مش قصة تكلفة ليد — قصة إيراد متعاقد عليه. الكتابة والإطلاق والمتابعة والـ CRM في إيد واحدة."
+    },
+    "role": {
+      "en": "Ad copywriting · campaign launch · sales follow-up · CRM",
+      "ar": "كتابة الإعلانات · إطلاق الحملات · متابعة السيلز · CRM"
+    },
+    "videos": [
+      {
+        "src": "assets/work/seet/creative-01-budget-forecasting.mp4",
+        "poster": "assets/work/seet/creative-01-budget-forecasting-poster.jpg",
+        "title": {
+          "en": "“Your budget went with the wind” — forecasting",
+          "ar": "«ميزانيتك راحت في مهب الريح» — الـ Forecasting"
+        },
+        "note": {
+          "en": "The Tom & Jerry script — a sequel to the earlier Seet video.",
+          "ar": "سكريبت توم وجيري — تكملة لفيديو صيت اللي قبله."
+        },
+        "credits": [
+          [
+            {
+              "en": "Script",
+              "ar": "كتابة"
+            },
+            "Anas Abdelazeem"
+          ],
+          [
+            {
+              "en": "Storyboard",
+              "ar": "ستوري بورد"
+            },
+            "Anas Abdelazeem · Ahmed Hamada (A11)"
+          ],
+          [
+            {
+              "en": "Illustration & creative direction",
+              "ar": "إليستريشن وكريتيف دايركشن"
+            },
+            "Ahmed Hamada (A11)"
+          ],
+          [
+            {
+              "en": "Marketing manager",
+              "ar": "ماركتنج مانجر"
+            },
+            "Ahmed Gamal “Jimmy”"
+          ]
+        ]
+      },
+      {
+        "src": "assets/work/seet/creative-02-ramadan-2050.mp4",
+        "poster": "assets/work/seet/creative-02-ramadan-2050-poster.jpg",
+        "title": {
+          "en": "Ramadan 2050 — don’t leave planning to the last minute",
+          "ar": "رمضان ٢٠٥٠ — متسيبش التخطيط لآخر لحظة"
+        }
+      },
+      {
+        "src": "assets/work/seet/creative-03-saudi-dialects.mp4",
+        "poster": "assets/work/seet/creative-03-saudi-dialects-poster.jpg",
+        "title": {
+          "en": "Speaking each region’s dialect",
+          "ar": "نكلّم كل منطقة بلهجتها"
+        }
+      },
+      {
+        "src": "assets/work/seet/creative-04-ugc-creative-ideas.mp4",
+        "poster": "assets/work/seet/creative-04-ugc-creative-ideas-poster.jpg",
+        "title": {
+          "en": "UGC — creative & ideas",
+          "ar": "UGC — كريتيف وأفكار"
+        }
+      }
+    ],
+    "credits": [
+      [
+        {
+          "en": "Scripts",
+          "ar": "كتابة السكريبتات"
+        },
+        "Anas Abdelazeem · Ahmed Gamal “Jimmy”"
+      ],
+      [
+        {
+          "en": "Illustration, motion & creative direction",
+          "ar": "إليستريشن وموشن وكريتيف دايركشن"
+        },
+        "Ahmed Hamada (A11)"
+      ],
+      [
+        {
+          "en": "Marketing manager",
+          "ar": "ماركتنج مانجر"
+        },
+        "Ahmed Gamal “Jimmy”"
+      ]
+    ],
+    "creditsNote": {
+      "en": "Ahmed Hamada (A11) built the complete look of the three motion videos — from the references, the scripts and our market research and analysis — to attract the target client and lift Seet’s positioning.",
+      "ar": "أحمد حمادة (A11) عمل الشكل الكامل للتلات فيديوهات الموشن، بناءً على الريفرنسات والكتابة والبحث والتحليل في السوق، عشان نجيب العميل المستهدف ونرفع بوزيشننج صيت."
+    },
+    "results": {
+      "meetings": 1332,
+      "hotMeetings": 1344,
+      "contracts": 77,
+      "followingUp": 980,
+      "notFollowingUp": 324,
+      "contractValueSAR": 423860,
+      "paidSAR": 389610,
+      "remainingSAR": 34250,
+      "saudiShare": 0.751,
+      "closeRate": 0.05780780780780781,
+      "avgContractSAR": 5504.675324675325,
+      "collectionRate": 0.9191950172226678
+    },
+    "sections": [
+      {
+        "heading": {
+          "en": "The challenge",
+          "ar": "التحدي"
+        },
+        "body": {
+          "en": "A marketing-services company selling to Saudi businesses needs more than leads: it needs meetings that turn into contracts — and contracts that actually get paid.",
+          "ar": "شركة خدمات تسويق بتبيع لبيزنس في السعودية محتاجة أكتر من ليدز: محتاجة اجتماعات تتحول لعقود، وعقود تتدفع فعلًا."
+        }
+      },
+      {
+        "heading": {
+          "en": "Strategy & structure",
+          "ar": "الاستراتيجية والستراكشر"
+        },
+        "body": {
+          "en": "One loop instead of handoffs: I wrote the ad copy, launched the campaigns, and followed the leads through sales and the CRM. Every lead is tagged Hot or Cold and tracked from meeting to follow-up to contract to payment (one-time or instalments), with nationality reported to keep targeting honest. Creative leaned on local relevance — regional dialects, seasonal hooks like Ramadan, motion-graphic storytelling and UGC.",
+          "ar": "دايرة واحدة بدل ما الشغل يتسلّم من إيد لإيد: كتبت الإعلانات، وأطلقت الحملات، وتابعت الليدز في السيلز والـ CRM. كل ليد بيتصنّف Hot أو Cold وبيتتابع من الاجتماع للمتابعة للتعاقد للدفع (مرة واحدة أو دفعات)، والجنسية بتتقاس عشان التارجت يفضل صح. والكريتيف معتمد على القرب من الجمهور: اللهجات المحلية، والمواسم زي رمضان، والموشن جرافيك، والـ UGC."
+        }
+      },
+      {
+        "heading": {
+          "en": "Results",
+          "ar": "النتائج"
+        },
+        "body": {
+          "en": "Hot leads: 1,332 meetings → 77 signed contracts worth 423,860 SAR — 389,610 SAR already collected (91.9%), 34,250 SAR remaining. 980 leads in active follow-up. 75.1% of leads are Saudi nationals.",
+          "ar": "الليدز الـ Hot: ١٬٣٣٢ اجتماع ← ٧٧ عقد بقيمة ٤٢٣٬٨٦٠ ريال — اتحصّل منها ٣٨٩٬٦١٠ ريال (٩١٫٩٪) والمتبقي ٣٤٬٢٥٠ ريال. و٩٨٠ ليد في متابعة. و٧٥٫١٪ من الليدز سعوديين."
+        }
+      },
+      {
+        "heading": {
+          "en": "The insight",
+          "ar": "الإنسايت"
+        },
+        "body": {
+          "en": "About 1 in 17 meetings became a contract (5.8%), at ≈5,505 SAR per contract, and more than 9 of every 10 riyals contracted were collected. Follow-up discipline turned meetings into paid revenue, not just bookings.",
+          "ar": "تقريبًا كل ١٧ اجتماع بيطلع منهم عقد (٥٫٨٪)، بمتوسط حوالي ٥٬٥٠٥ ريال للعقد، وأكتر من ٩ من كل ١٠ ريال اتعاقد عليهم اتحصّلوا فعلًا. المتابعة المنضبطة هي اللي حوّلت الاجتماعات لفلوس مدفوعة، مش مجرد مواعيد."
+        }
+      }
+    ],
+    "proof": [
+      {
+        "src": "assets/work/seet/crm-dashboard-hot-leads.jpg",
+        "caption": {
+          "en": "Same report filtered to Hot leads",
+          "ar": "نفس التقرير بفلتر الليدز الـ Hot"
+        }
+      }
+    ],
+    "todo": [
+      "Ad platforms used (Meta / Snapchat / TikTok / Google?)",
+      "Ad spend for the period → to compute cost per meeting and cost per contract / ROAS",
+      "Is the Ramadan 2050 / dialects / UGC creative work by Anas (copy, concept, script)?"
+    ]
+  }
+}

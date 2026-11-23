@@ -1,0 +1,164 @@
+{
+  "alahlyMonthly": [
+    {
+      "month": "2025-08",
+      "spent": 4713,
+      "budget": 5000,
+      "leads": 834,
+      "target": 1000,
+      "cpl": 5.65,
+      "paidClients": 17,
+      "canva": "DAGxprRzuKw"
+    },
+    {
+      "month": "2025-09",
+      "spent": 4622,
+      "budget": 5000,
+      "leads": 816,
+      "target": 1000,
+      "cpl": 5.66,
+      "meetings": 241,
+      "paidClients": 17,
+      "canva": "DAG0VhnDhdQ",
+      "cplByPlatform": {
+        "meta": 4.4,
+        "snap": 7.23
+      }
+    },
+    {
+      "month": "2025-10",
+      "spent": 4343,
+      "budget": 5000,
+      "leads": 610,
+      "target": 1000,
+      "cpl": 7.12,
+      "meetings": 122,
+      "paidClients": 8,
+      "canva": "DAG3h-IHxk8",
+      "cplByPlatform": {
+        "meta": 5.84,
+        "snap": 9.85
+      }
+    },
+    {
+      "month": "2025-11",
+      "spent": 5555,
+      "budget": 5400,
+      "leads": 644,
+      "target": 700,
+      "cpl": 8.63,
+      "meetings": 73,
+      "paidClients": 9,
+      "canva": "DAG6KBWOgOU",
+      "cplByPlatform": {
+        "meta": 6.8,
+        "snap": 10.11
+      }
+    },
+    {
+      "month": "2025-12",
+      "spent": 3630,
+      "budget": 3600,
+      "leads": 432,
+      "target": 700,
+      "cpl": 8.4,
+      "paidClients": 8,
+      "canva": "DAG9ETJwGYw"
+    },
+    {
+      "month": "2026-01",
+      "spent": 2357,
+      "budget": 3600,
+      "leads": 280,
+      "target": 700,
+      "cpl": 8.42,
+      "paidClients": 3,
+      "canva": "DAHAEN4a9RQ",
+      "cplByPlatform": {
+        "meta": 7.32,
+        "snap": 8.24,
+        "tiktok": 17.15
+      }
+    }
+  ],
+  "seetMonthly": [
+    {
+      "month": "2025-09",
+      "spent": 3426,
+      "budget": 3417,
+      "leads": 610,
+      "target": 700,
+      "cpl": 5.62,
+      "meetings": 213,
+      "paidClients": 10,
+      "canva": "DAGyqWsNPdE",
+      "cplByPlatform": {
+        "meta": 4.78,
+        "snap": 7.82
+      }
+    },
+    {
+      "month": "2025-10",
+      "spent": 3790,
+      "budget": 4000,
+      "leads": 573,
+      "target": 600,
+      "cpl": 6.61,
+      "meetings": 178,
+      "paidClients": 12,
+      "canva": "DAG3h9FzQZI",
+      "cplByPlatform": {
+        "meta": 5.78,
+        "snap": 7.57,
+        "tiktok": 31.3
+      }
+    },
+    {
+      "month": "2025-11",
+      "spent": 3574,
+      "budget": 3600,
+      "leads": 585,
+      "target": 600,
+      "cpl": 6.11,
+      "meetings": 164,
+      "paidClients": 12,
+      "canva": "DAG6P4IzmhM",
+      "cplByPlatform": {
+        "meta": 5.8,
+        "snap": 8.35
+      }
+    },
+    {
+      "month": "2025-12",
+      "spent": 3606,
+      "budget": 3600,
+      "leads": 573,
+      "target": 600,
+      "cpl": 6.29,
+      "meetings": 180,
+      "paidClients": 14,
+      "canva": "DAG9EU1oyVk",
+      "cplByPlatform": {
+        "meta": 4.91,
+        "snap": 6.21,
+        "tiktok": 8.94
+      }
+    },
+    {
+      "month": "2026-01",
+      "spent": 3584,
+      "budget": 3600,
+      "leads": 459,
+      "target": 600,
+      "cpl": 7.81,
+      "meetings": 186,
+      "paidClients": 13,
+      "canva": "DAHAEO7OnMM",
+      "cplByPlatform": {
+        "meta": 8.57,
+        "snap": 8.14,
+        "tiktok": 5.48
+      }
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "note": "Read-only JSON snapshot of data/*.js (the site reads the .js files). Edit data/*.js, then re-run: node tools/export-content.mjs .",
+  "files": {
+    "art.json": [
+      "artProjects"
+    ],
+    "companies.json": [
+      "companies",
+      "companyOrder",
+      "contact"
+    ],
+    "creative.json": [
+      "roofPyramisa"
+    ],
+    "creative-concepts.json": [
+      "creativeConcepts"
+    ],
+    "personal-photos.json": [
+      "personalPhotos"
+    ],
+    "people.json": [
+      "people"
+    ],
+    "totals.json": [
+      "totals"
+    ],
+    "cases-seet.json": [
+      "seetCase"
+    ],
+    "cases-alahly-leadmagnet.json": [
+      "alahlyLeadMagnet"
+    ],
+    "cases-ecart.json": [
+      "ecartCase"
+    ],
+    "cases-ecom-store.json": [
+      "ecomStoreCase"
+    ],
+    "cases-monthly-reports.json": [
+      "alahlyMonthly",
+      "seetMonthly"
+    ],
+    "cases-portfolio-cases.json": [
+      "ecommerceCases",
+      "leadGenCases"
+    ]
+  }
+}
