@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Anas Abdelazeem — Marketing mind. Actor’s instinct.</title>
+<meta name="description" content="Creative strategist, performance marketer and actor — case studies, campaigns and art.">
+<link rel="icon" href="assets/brand/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&family=Space+Grotesk:wght@400;500;700&family=Unbounded:wght@600;800;900&family=Caveat:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="hdr" id="hdr">
+  <div class="wrap hdr-row">
+    <a class="brand" href="#" data-nav="home"><img src="assets/brand/logo-256.png" alt="" width="40" height="40"><span>ANAS <b>ORIGINALS</b></span></a>
+    <nav class="nav" id="nav"></nav>
+    <a class="hcv" href="assets/cv/Anas_Abdelazeem_CV.pdf" download="Anas_Abdelazeem_CV.pdf" aria-label="Download CV">⤓ CV</a>
+    <button class="lang" id="lang" type="button"></button>
+  </div>
+</header>
+<main id="app" tabindex="-1"></main>
+<nav class="tabbar" id="tabbar" aria-label="Mobile"></nav>
+<div class="lb" id="lb" hidden>
+  <button class="lb-x" type="button" aria-label="Close">✕</button>
+  <button class="lb-prev" type="button" aria-label="Previous">‹</button>
+  <figure><img alt=""><figcaption></figcaption></figure>
+  <button class="lb-next" type="button" aria-label="Next">›</button>
+</div>
+<div class="vm" id="vm" hidden role="dialog" aria-modal="true">
+  <button class="vm-x" type="button" aria-label="Close">✕</button>
+  <div class="vm-box"><video controls playsinline controlslist="nodownload noplaybackrate noremoteplayback" disablepictureinpicture disableremoteplayback preload="none"></video>
+    <div class="vm-meta"><h3 class="vm-t"></h3><p class="vm-n"></p><div class="vm-c"></div></div></div>
+</div>
+<div class="curtain" id="curtain"><img src="assets/brand/logo-256.png" alt=""></div>
+<script type="module" src="app.js"></script>
+<!-- Analytics: Vercel Web Analytics (enable it in the Vercel project → Analytics) + optional Microsoft Clarity (set the id in analytics.js) -->
+<script defer src="/_vercel/insights/script.js"></script>
+<script defer src="analytics.js"></script>
+</body>
+</html>
