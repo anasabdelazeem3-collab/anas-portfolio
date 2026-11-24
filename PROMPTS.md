@@ -65,7 +65,7 @@ Match lighting to the rest of the site; don't reuse the same personal photo in t
 ---
 
 ## Current numbers (snapshot)
-- Sales generated (stores + leads): **$1,591,236** — stores 5,342,274.38 SAR + Seet Hot contracts 423,860 SAR + Honey 2026 201,001.42 SAR, ÷ 3.75
+- Sales generated (stores + leads): **$1,613,578** — stores 5,342,274.38 SAR + Seet Hot contracts 423,860 SAR + Honey 2026 201,001.42 SAR, ÷ 3.75
 - Orders: **11,130** · Leads: **9,789** · Total ad spend: **$240,745**
 - Seet (Hot leads, Sep 1 2025 – Apr 1 2026): 1,332 meetings · 77 contracts · 423,860 SAR value · 389,610 SAR collected · 34,250 SAR remaining
 - Al-Ahly monthly (Aug 2025 – Jan 2026): $25,220 · 3,616 leads · CPL $6.97 · 62 paid clients

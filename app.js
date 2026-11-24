@@ -53,6 +53,7 @@ const ML = {
   leads: ['Leads', 'الليدز'], conversations: ['Conversations', 'المحادثات'], cplUSD: ['Cost per lead', 'تكلفة الليد'], impressions: ['Impressions', 'مرات الظهور'],
   clicks: ['Clicks', 'النقرات'], ctr: ['Click rate', 'نسبة النقر'], hookRate: ['Hook rate', 'Hook Rate'], growth: ['Growth', 'النمو'],
   meetings: ['Sales meetings', 'اجتماعات بيع'], contracts: ['Signed contracts', 'عقود'], contractValueSAR: ['Contract value', 'قيمة العقود'], paidSAR: ['Collected', 'المحصّل'],
+  revenueUSD: ['Revenue from contracts', 'الدخل من العقود'],
 };
 function fmtMetric(k, v) {
   if (typeof v !== 'number') return null;
@@ -70,10 +71,10 @@ const metricGrid = obj => {
 /* ---------- case registry ---------- */
 const cases = [];
 const add = c => cases.push(c);
-leadGenCases.forEach(c => add({ ...c, kind: 'leadgen', title: c.headline, sub: c.client, chips: [c.platform, L(c.period)], kpis: c.metrics }));
-ecommerceCases.forEach(c => add({ ...c, kind: 'ecom', title: c.headline, sub: c.client, chips: [L(c.niche), L(c.period)], kpis: c.metrics }));
 add({ ...ecomStoreCase, kind: 'ecom', title: ecomStoreCase.headline, sub: L(ecomStoreCase.client), chips: ['TikTok', 'Meta', L(ecomStoreCase.period)],
   kpis: { salesSAR: 973940, orders: 2390, roas: 8.08 }, metrics: { salesSAR: 973940, orders: 2390, spendSAR: 120505.72, roas: 8.08, growth: 3.0272 } });
+leadGenCases.forEach(c => add({ ...c, kind: 'leadgen', title: c.headline, sub: c.client, chips: [c.platform, L(c.period)], kpis: c.metrics }));
+ecommerceCases.forEach(c => add({ ...c, kind: 'ecom', title: c.headline, sub: c.client, chips: [L(c.niche), L(c.period)], kpis: c.metrics }));
 add({ ...seetCase, kind: 'leadgen', title: seetCase.headline, sub: seetCase.client, chips: [L(seetCase.market), L(seetCase.period)], monthly: seetMonthly, monthlyNote: { en: 'Monthly reports cover Sep 2025 – Jan 2026 (61 paying clients). The CRM dashboard runs to Apr 1, 2026, so it includes February–March: 77 Hot-lead contracts in total.', ar: 'التقارير الشهرية من سبتمبر ٢٠٢٥ لحد يناير ٢٠٢٦ (٦١ عميل دفع). داشبورد الـ CRM ممتد لحد ١ أبريل ٢٠٢٦، فبيشمل فبراير ومارس: ٧٧ عقد من الليدز الـ Hot إجمالًا.' },
   kpis: { contractValueSAR: 423860, contracts: 77, meetings: 1332 },
   metrics: { meetings: 1332, contracts: 77, contractValueSAR: 423860, paidSAR: 389610 }, cover: seetCase.videos[0].poster });
@@ -87,7 +88,7 @@ const byId = id => cases.find(c => c.id === id);
 const featuredIds = ['ecom-store-2025', 'seet-crm-pipeline', 'alahli-snapchat', 'operamck', 'ecart-content-growth', 'oneline'];
 const clientWall = [
   ['Al-Ahli Marketing', 'alahli-snapchat'], ['Seet / SMT', 'seet-crm-pipeline'], ['E-Cart', 'ecart-content-growth'], ['Maysara Factory', 'maysara'],
-  ['She Is', 'sheis'], ['Operamck', 'operamck'], ['One Line', 'oneline'], ['Wanasim Al Ward', 'wanasim'], ['Asas Factory', 'asas'],
+  ['She Is', 'sheis'], ['Operamck', 'operamck'], ['One Line', 'oneline'], ['Nasim Al Ward', 'wanasim'], ['Asas Factory', 'asas'],
   ['Roof Pyramisa', 'roof-pyramisa'], ['Aurest', 'aurest'], ['Honey store', 'ecom-store-2025'],
 ];
 
@@ -148,22 +149,22 @@ function home() {
   const skills = [['Meta', '#1877f2'], ['Snap', '#f7c600'], ['TikTok', '#111'], ['Google', '#ea4335'], ['CRM', '#3a044f'], ['Canva', '#7d2ae8'], ['AI', '#f29423'], ['Shopify', '#5e8e3e']];
   const tickets = [[`$${compact(totals.salesUSD)}`, ar() ? 'مبيعات (متاجر + ليدز)' : 'sales generated (stores + leads)'], [`${nf(Math.floor(totals.orders / 100) * 100)}+`, ar() ? 'طلب' : 'orders'],
     [`${nf(Math.floor(totals.leads / 100) * 100)}+`, ar() ? 'ليد' : 'leads'], [`$${compact(totals.adSpendUSD)}`, ar() ? 'إجمالي الصرف الإعلاني' : 'total ad spend managed']];
-  const mq = (ar() ? ['مخطط استراتيجي', 'توليد عملاء', 'مسوّق رقمي', 'صانع محتوى', 'ممثل'] : ['Creative strategist', 'Lead generation', 'Digital marketer', 'Content creator', 'Actor'])
+  const mq = (ar() ? ['مخطط استراتيجي', 'توليد عملاء', 'مسوق رقمي', 'صانع محتوى', 'ممثل'] : ['Creative strategist', 'Lead generation', 'Digital marketer', 'Content creator', 'Actor'])
     .map(w => `<span>${w}</span><em>✸</em>`).join('');
   const cf = featuredIds.concat(['seet-crm-pipeline', 'maysara', 'sheis', 'roof-pyramisa', 'alahly-matrix-lead-magnet']).filter((v, i, a) => a.indexOf(v) === i).map(byId).filter(Boolean);
   const clientsC = ['--c:var(--orange)', '--c:var(--lav)', '--c:var(--purple)'];
   return `<div class="view">
   <section class="hero"><div class="wrap">
-    <div class="hero-top rv"><span>${ar() ? 'مسوّق / ممثل' : 'MARKETER / ACTOR'}</span><span>2026</span></div>
+    <div class="hero-top rv"><span>${ar() ? 'مسوق / ممثل' : 'MARKETER / ACTOR'}</span><span>2026</span></div>
     <h1 class="disp wordmark rv">PORTF<img class="logo-o" src="assets/brand/logo.png" alt="Anas logo">LIO</h1>
     <div class="sig hand rv"><svg viewBox="0 0 50 30" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M46 4 C30 6 14 14 6 26 M6 26 L4 15 M6 26 L16 23"/></svg>Anas Abdelazeem</div>
     ${marks()}
     <div class="hello">
-      <div class="scan rv"><i></i><i></i><i></i><i></i><div class="fr"><img class="then" src="assets/personal/scan-hatter.jpg" alt="${ar() ? 'أنس في شخصية صانع القبعات' : 'Anas as the Mad Hatter'}"><img class="now" src="assets/personal/scan-book.jpg" alt="${ar() ? 'أنس المسوّق' : 'Anas, the marketer'}"><span class="line"></span><span class="tag t1">${ar() ? 'ممثل' : 'ACTOR'}</span><span class="tag t2">${ar() ? 'مسوّق' : 'MARKETER'}</span></div><small>${ar() ? 'ممثل ومسوّق، نفس الشخص ←' : '← actor & marketer, same guy'}</small></div>
-      <div class="rv"><h2 class="disp">${ar() ? 'أهلًا' : 'HELLO'}</h2>
-        <p class="lead">${ar() ? 'أنا أنس — مخطط استراتيجي إبداعي، ومسوّق أداء، وممثل.' : 'I’m Anas — creative strategist, performance marketer and actor.'}</p>
-        <p>${ar() ? 'بحوّل تحديات البيزنس لأفكار وحملات بتجيب أرقام: ليدز، واجتماعات، وعقود، ومبيعات. وبجيب للتسويق حاجة من المسرح والكاميرا: إزاي تخلّي الناس توقف وتسمع.' : 'I turn business problems into ideas and campaigns that move numbers — leads, meetings, signed contracts and sales. And I bring something from the stage and the camera into marketing: how to make people stop and listen.'}</p>
-        <div class="hero-cta" style="display:flex;gap:12px;margin-top:22px;flex-wrap:wrap"><a class="btn" href="#work">${t('explore')} →</a><a class="btn o" href="#contact">${t('talk')}</a><a class="btn cv" href="${contact.cv}" download="Anas_Abdelazeem_CV.pdf">⤓ ${ar() ? 'نزّل السي في' : 'Download CV'}</a></div></div>
+      <div class="scan rv"><i></i><i></i><i></i><i></i><div class="fr"><img class="then" src="assets/personal/scan-hatter.jpg" alt="${ar() ? 'أنس في شخصية صانع القبعات' : 'Anas as the Mad Hatter'}"><img class="now" src="assets/personal/scan-book.jpg" alt="${ar() ? 'أنس المسوّق' : 'Anas, the marketer'}"><span class="line"></span><span class="tag t1">${ar() ? 'ممثل' : 'ACTOR'}</span><span class="tag t2">${ar() ? 'مسوق' : 'MARKETER'}</span></div><small>${ar() ? 'ممثل ومسوق، نفس الشخص ←' : '← actor & marketer, same guy'}</small></div>
+      <div class="rv"><h2 class="disp">${ar() ? 'أهلاً' : 'HELLO'}</h2>
+        <p class="lead">${ar() ? 'أنا أنس — مخطط استراتيجي إبداعي، ومسوق أداء، وممثل.' : 'I’m Anas — creative strategist, performance marketer and actor.'}</p>
+        <p>${ar() ? 'بحول تحديات البيزنس لأفكار وحملات بتجيب أرقام: ليدز، واجتماعات، وعقود، ومبيعات. وبجيب للتسويق حاجة من المسرح والكاميرا: إزاي تخلي الناس توقف وتسمع.' : 'I turn business problems into ideas and campaigns that move numbers — leads, meetings, signed contracts and sales. And I bring something from the stage and the camera into marketing: how to make people stop and listen.'}</p>
+        <div class="hero-cta" style="display:flex;gap:12px;margin-top:22px;flex-wrap:wrap"><a class="btn" href="#work">${t('explore')} →</a><a class="btn o" href="#contact">${t('talk')}</a><a class="btn cv" href="${contact.cv}" download="Anas_Abdelazeem_CV.pdf">⤓ ${ar() ? 'نزل السي في' : 'Download CV'}</a></div></div>
       <div class="side rv"><div><h3>${ar() ? 'الأدوات' : 'SKILLS'}</h3><div class="skills">${skills.map(([n, c]) => `<span class="skill" style="background:${c}">${n}</span>`).join('')}</div></div>
         <div><h3>${ar() ? 'الخبرات' : 'EXPERIENCE'}</h3><ul class="xp">${topCos.map(c => `<li><b>${c.name}${c.children ? ` <small>(${c.children.map(k => coBy(k).name).join(' · ')})</small>` : ''}</b><span>${L(c.period)}</span></li>`).join('')}</ul></div></div>
     </div>
@@ -281,8 +282,8 @@ const contactBlock = () => `<section class="contact" id="contact"><div class="wr
   <div class="ways">
     <a class="way" href="mailto:${contact.email}"><i>✉</i><span><small>${ar() ? 'الإيميل' : 'Email'}</small>${contact.email}</span></a>
     <a class="way" href="tel:${contact.phoneTel}" dir="ltr"><i>☏</i><span><small>${ar() ? 'الموبايل' : 'Phone'}</small>${contact.phone}</span></a>
-    <a class="way" href="${waLink(ar() ? 'أهلًا أنس، شفت البورتفوليو بتاعك.' : 'Hi Anas, I saw your portfolio.')}" target="_blank" rel="noopener"><i class="wa"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.3-.4.8-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.3 2.2 2.2 0 0 0 .2-1.3c-.1-.1-.3-.2-.5-.3z"/></svg></i><span><small>WhatsApp</small>${contact.phone}</span></a>
-    <a class="way" href="${contact.cv}" download="Anas_Abdelazeem_CV.pdf"><i>⤓</i><span><small>${ar() ? 'السي في' : 'Resume'}</small>${ar() ? 'نزّل PDF' : 'Download PDF'}</span></a>
+    <a class="way" href="${waLink(ar() ? 'أهلاً أنس، شفت البورتفوليو بتاعك.' : 'Hi Anas, I saw your portfolio.')}" target="_blank" rel="noopener"><i class="wa"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.3-.4.8-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.3 2.2 2.2 0 0 0 .2-1.3c-.1-.1-.3-.2-.5-.3z"/></svg></i><span><small>WhatsApp</small>${contact.phone}</span></a>
+    <a class="way" href="${contact.cv}" download="Anas_Abdelazeem_CV.pdf"><i>⤓</i><span><small>${ar() ? 'السي في' : 'Resume'}</small>${ar() ? 'نزل PDF' : 'Download PDF'}</span></a>
   </div>
   <div class="row">${contact.social.map(([n, h]) => `<a class="btn o" href="${h}" target="_blank" rel="noopener">${n} ↗</a>`).join('')}</div>
   <a class="book" href="${waLink(ar() ? 'أهلًا أنس، عايز أحجز استشارة.' : 'Hi Anas, I’d like to book a consultation.')}" target="_blank" rel="noopener">

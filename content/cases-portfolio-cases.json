@@ -14,7 +14,7 @@
       },
       "headline": {
         "en": "A factory selling to shops and homes: 1.13M SAR",
-        "ar": "مصنع بيبيع للمحلات والبيوت: ١٫١٣ مليون ريال"
+        "ar": "مصنع مساحيق محقق ١٫١٣ مليون ريال"
       },
       "metrics": {
         "salesSAR": 1125375.57,
@@ -164,8 +164,8 @@
         "ar": "سبتمبر ٢٠٢٣ – ديسمبر ٢٠٢٤"
       },
       "headline": {
-        "en": "10 creatives and one after-sales offer",
-        "ar": "١٠ كريتيفات وعرض واحد بعد البيع"
+        "en": "Product quality plus the right strategy beats any competitor",
+        "ar": "جودة المنتج والإستراتيجي الصح تكسب أي منافس"
       },
       "metrics": {
         "salesSAR": 660997.3,
@@ -181,8 +181,8 @@
             "ar": "الاستراتيجية"
           },
           "body": {
-            "en": "Ten creatives across AGC, UGC, gain and pain angles; a local-manufacturing story; and an installation discount after the sale to remove the last purchase barrier.",
-            "ar": "عشر كريتيفات بزوايا AGC وUGC والمكسب والألم؛ وقصة التصنيع المحلي؛ وخصم تركيب بعد البيع يشيل آخر حاجز قبل الشراء."
+            "en": "Ten creatives across FGC, AGC, UGC, gain and pain angles; a local-manufacturing story; and partnerships with workshops for discounted or free installation.",
+            "ar": "عشر كريتيفات بزوايا FGC وAGC وUGC والمكسب والألم؛ وقصة التصنيع المحلي، ومش بس كده: التعاقد مع بعض الورش للتركيب بخصم أو مجانًا."
           }
         },
         {
@@ -191,8 +191,8 @@
             "ar": "النتيجة"
           },
           "body": {
-            "en": "1,898 orders and 661K SAR in sales (647.5K net) — almost no discount coupons needed.",
-            "ar": "١٬٨٩٨ طلب و٦٦١ ألف ريال مبيعات (٦٤٧٫٥ ألف صافي) — تقريبًا من غير كوبونات خصم."
+            "en": "1,898 orders and 661K SAR in sales (647.5K net).",
+            "ar": "١٬٨٩٨ طلب و٦٦١ ألف ريال مبيعات (٦٤٧٫٥ ألف صافي)."
           }
         }
       ],
@@ -208,7 +208,7 @@
     },
     {
       "id": "wanasim",
-      "client": "Wanasim Al Ward — ونسيم الورد",
+      "client": "Nasim Al Ward — نسيم الورد",
       "logo": null,
       "niche": {
         "en": "Gifts & flowers",
@@ -324,7 +324,7 @@
           },
           "body": {
             "en": "Audiences built on the customer journey rather than age/interest boxes, and budget released in waves — the spend line shows clear pushes (Feb, Apr, Jul–Aug, Oct–Nov 2025) with quiet periods between them.",
-            "ar": "جماهير مبنية على رحلة العميل بدل خانات السن والاهتمامات، والميزانية بتنزل على موجات — خط الصرف بيوضح دفعات واضحة (فبراير، أبريل، يوليو–أغسطس، أكتوبر–نوفمبر ٢٠٢٥) وبينها فترات هدوء."
+            "ar": "جماهير مبنية على رحلة العميل بدل خانات السن والاهتمامات، والميزانية بتنزل على موجات — خط الصرف بيوضح دفعات واضحة (فبراير، إبريل، يوليو–أغسطس، أكتوبر–نوفمبر ٢٠٢٥) وبينها فترات هدوء."
           }
         },
         {
@@ -334,7 +334,7 @@
           },
           "body": {
             "en": "Pulsing kept the creative fresh and the cost per lead flat at ≈$8 across 5.3M impressions — volume without fatigue.",
-            "ar": "الموجات خلّت الكريتيف فريش وتكلفة الليد ثابتة حوالي ٨ دولار على ٥٫٣ مليون ظهور — حجم من غير ما الجمهور يزهق."
+            "ar": "الموجات خلت الكريتيف فريش وتكلفة الليد ثابتة حوالي ٨ دولار على ٥٫٣ مليون ظهور — حجم من غير ما الجمهور يزهق."
           }
         }
       ],
@@ -350,8 +350,8 @@
     },
     {
       "id": "snapchat-leadgen",
-      "client": "Al-Ahli Marketing — الأهلي للتسويق",
-      "logo": "alahly",
+      "client": "Seet Marketing — صيت للتسويق",
+      "logo": null,
       "platform": "Snapchat",
       "period": {
         "en": "Apr 1 – Oct 12, 2025",
@@ -396,14 +396,14 @@
           "src": "assets/work/cases/snapchat-leadgen-overview.jpg",
           "caption": {
             "en": "Leads vs cost per lead — Apr to Oct 2025",
-            "ar": "الليدز مقابل تكلفة الليد — أبريل لأكتوبر ٢٠٢٥"
+            "ar": "الليدز مقابل تكلفة الليد — إبريل لأكتوبر ٢٠٢٥"
           }
         }
       ]
     },
     {
       "id": "snapchat-b2b",
-      "client": "B2B client — Snapchat",
+      "client": "Kitchen Design — تصميم مطابخ",
       "logo": null,
       "platform": "Snapchat",
       "period": {
@@ -411,8 +411,8 @@
         "ar": "١٠ سبتمبر – ١٢ أكتوبر ٢٠٢٥ (فترة التشغيل)"
       },
       "headline": {
-        "en": "A five-week B2B sprint on a consumer platform",
-        "ar": "سبرنت B2B خمس أسابيع على منصة استهلاكية"
+        "en": "Kitchen design",
+        "ar": "تصميم مطابخ"
       },
       "metrics": {
         "spendUSD": 2031.07,
@@ -420,7 +420,9 @@
         "clicks": 1663,
         "ctr": 0.0045,
         "leads": 261,
-        "cplUSD": 7.78
+        "cplUSD": 7.78,
+        "contracts": 15,
+        "revenueUSD": 22341.77
       },
       "sections": [
         {
@@ -429,8 +431,8 @@
             "ar": "الرهان"
           },
           "body": {
-            "en": "Snapchat isn’t the obvious B2B channel. The account sat idle until September, then ran a tight five-week test.",
-            "ar": "سناب شات مش القناة المتوقعة للـ B2B. الحساب كان واقف لحد سبتمبر، وبعدين اشتغل تيست مركز خمس أسابيع."
+            "en": "Snapchat isn’t the obvious B2B channel — especially for kitchen design. The account sat idle until September, then ran a tight five-week test.",
+            "ar": "سناب شات مش القناة المتوقعة للـ B2B، وخصوصًا مجال المطابخ. الحساب كان واقف لحد سبتمبر، وبعدين اشتغل تيست مركز خمس أسابيع."
           }
         },
         {
@@ -439,8 +441,8 @@
             "ar": "النتيجة"
           },
           "body": {
-            "en": "The highest click rate of the three Snapchat cases (0.45%) and the lowest cost per lead ($7.78) — 261 business leads for ≈$2K.",
-            "ar": "أعلى نسبة نقر في حالات سناب التلاتة (٠٫٤٥٪) وأقل تكلفة لليد (٧٫٧٨ دولار) — ٢٦١ ليد بيزنس بحوالي ٢ ألف دولار."
+            "en": "The lowest cost per lead ($7.78) — 261 business leads for ≈$2K, which closed into agreements with 15 clients worth $22,341.77.",
+            "ar": "أقل تكلفة لليد (٧٫٧٨ دولار) — ٢٦١ ليد بيزنس بحوالي ٢ ألف دولار، وتم عقد اتفاقات مع ١٥ عميل بدخل ٢٢٬٣٤١٫٧٧ دولار."
           }
         }
       ],
@@ -456,7 +458,7 @@
     },
     {
       "id": "meta-b2b-b2c",
-      "client": "TODO client",
+      "client": "Rassam — رسام",
       "logo": null,
       "platform": "Meta",
       "period": {
@@ -490,7 +492,7 @@
           },
           "body": {
             "en": "The duplicated “creative data 20/7” campaign alone produced 908 of 1,524 conversations. Finding the winning creative and duplicating it beat spreading budget evenly.",
-            "ar": "نسخة حملة «creative data 20/7» لوحدها جابت ٩٠٨ من ١٬٥٢٤ محادثة. إنك تلاقي الكريتيف الكسبان وتعمله نسخة أحسن من إنك توزّع الميزانية بالتساوي."
+            "ar": "نسخة حملة «creative data 20/7» لوحدها جابت ٩٠٨ من ١٬٥٢٤ محادثة. إنك تلاقي الكريتيف الكسبان وتعمله نسخة أحسن من إنك توزع الميزانية بالتساوي."
           }
         }
       ],
@@ -499,14 +501,14 @@
           "src": "assets/work/cases/meta-b2b-b2c-campaigns.jpg",
           "caption": {
             "en": "Meta Ads Manager — Apr to Oct 2025",
-            "ar": "مدير إعلانات ميتا — أبريل لأكتوبر ٢٠٢٥"
+            "ar": "مدير إعلانات ميتا — إبريل لأكتوبر ٢٠٢٥"
           }
         }
       ]
     },
     {
       "id": "meta-b2b-contract",
-      "client": "TODO client",
+      "client": "Seet Marketing — صيت للتسويق",
       "logo": null,
       "platform": "Meta",
       "period": {
@@ -530,7 +532,7 @@
           },
           "body": {
             "en": "Paid on performance, so every campaign had to earn its place: 13 campaigns across engagement, lead forms, traffic and WhatsApp sales, with hook rates held around 15–19%.",
-            "ar": "الدفع على الأداء، فكل حملة لازم تثبت إنها تستاهل مكانها: ١٣ حملة ما بين تفاعل وفورم ليدز وترافيك ومبيعات عبر واتساب، والـ Hook Rate ثابت حوالي ١٥–١٩٪."
+            "ar": "الدفع على الأداء، كل حملة لازم تثبت إنها تستاهل مكانها: ١٣ حملة ما بين تفاعل وفورم ليدز وترافيك ومبيعات عبر واتساب، والـ Hook Rate ثابت حوالي ١٥–١٩٪."
           }
         },
         {
@@ -552,42 +554,6 @@
             "ar": "مدير إعلانات ميتا — تفاصيل الحملات"
           }
         }
-      ]
-    },
-    {
-      "id": "meta-advanced-targeting",
-      "client": "TODO client",
-      "logo": null,
-      "platform": "Meta",
-      "period": {
-        "en": "2025",
-        "ar": "٢٠٢٥"
-      },
-      "headline": {
-        "en": "Creative first: a 22% hook rate",
-        "ar": "الكريتيف الأول: Hook Rate ٢٢٪"
-      },
-      "metrics": {
-        "spendUSD": 3957.11,
-        "leads": 751,
-        "cplUSD": 5.26,
-        "hookRate": 0.22
-      },
-      "sections": [
-        {
-          "heading": {
-            "en": "The result",
-            "ar": "النتيجة"
-          },
-          "body": {
-            "en": "751 leads at $5.26 with a 22% hook rate — the scroll-stop did the targeting work.",
-            "ar": "٧٥١ ليد بـ ٥٫٢٦ دولار وHook Rate ٢٢٪ — وقف الإسكرول هو اللي عمل شغل التارجت."
-          }
-        }
-      ],
-      "proof": [],
-      "todo": [
-        "New screenshot to confirm"
       ]
     },
     {
