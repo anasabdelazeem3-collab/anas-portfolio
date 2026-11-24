@@ -458,3 +458,32 @@ html,body{overflow-x:clip}
 @media (max-width:720px){.contact .ways{grid-template-columns:1fr}.book{flex-wrap:wrap;padding:18px 20px}.book small{width:100%;order:3}.hcv{padding:8px 11px;font-size:12px}}
 .scan small{white-space:nowrap}
 @media (max-width:720px){.scan small{position:static!important;display:block;text-align:center;margin-top:14px;transform:none!important}}
+/* testimonials */
+.tsts{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:18px}
+.tst{position:relative;margin:0;background:#fff;border:2px solid var(--ink);border-radius:18px;padding:26px 22px 20px;box-shadow:6px 6px 0 var(--orange);transform:rotate(var(--r,0))}
+.tst .q{position:absolute;top:-22px;inset-inline-start:18px;font:900 64px/1 var(--display);color:var(--purple)}
+.tst blockquote{margin:0 0 16px;font-size:16px;line-height:1.65}
+.tst figcaption b{display:block;font-size:16px}.tst figcaption a{color:var(--purple);text-decoration:none}
+.tst figcaption span{display:block;font-size:13px;color:var(--purple);font-weight:700}.tst figcaption small{display:block;font-size:12px;opacity:.65;margin-top:2px}
+/* recommendation form */
+.recf{max-width:640px;display:grid;gap:16px;background:#fff;border:2px solid var(--ink);border-radius:22px;padding:26px;box-shadow:8px 8px 0 var(--lav)}
+.recf label{display:grid;gap:6px;font-weight:700;font-size:14px}
+.recf input,.recf textarea{font:inherit;font-weight:400;font-size:16px;padding:12px 14px;border:1.5px solid rgba(21,16,24,.25);border-radius:12px;background:var(--paper);color:var(--ink);width:100%;box-sizing:border-box}
+.recf input:focus,.recf textarea:focus{outline:3px solid var(--orange);outline-offset:1px;border-color:var(--ink)}
+.recf .hp{position:absolute;left:-9999px;width:1px;height:1px;opacity:0}
+.recf button{justify-self:start}.recmsg{margin:0;font-weight:700;color:var(--purple)}
+.recok b{display:block;font-size:22px;margin-bottom:6px}
+/* mobile hero fixes: keep marquee readable, tickets inside the screen */
+@media (max-width:720px){
+  .strip{height:360px;margin-top:40px}
+  .strip-band{height:120px;bottom:16%}
+  .strip .sticker{height:330px;left:auto;right:4%;transform:rotate(3deg)}
+  [dir=rtl] .strip .sticker{right:auto;left:4%;transform:rotate(-3deg)}
+  .marquee{font-size:34px!important}
+  .tickets{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:14px!important;padding:0 2px;margin-top:22px}
+  .ticket{transform:none!important;min-width:0;padding:16px 14px!important}
+  .ticket b{font-size:clamp(22px,7vw,30px)!important;white-space:nowrap}
+  .ticket span{font-size:12.5px!important}
+}
+
+.strip-band{direction:ltr}

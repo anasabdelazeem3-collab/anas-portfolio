@@ -11,6 +11,26 @@
       "en": "Content plan · scriptwriting · filming direction · on-camera host · campaign launches",
       "ar": "خطة المحتوى · الكتابة · التصوير · المتحدث أمام الكاميرا · إطلاق الحملات"
     },
+    "credits": [
+      [
+        {
+          "en": "Content plan, writing, filming & on-camera host",
+          "ar": "خطة المحتوى والكتابة والتصوير والتقديم"
+        },
+        "Anas Abdelazeem"
+      ],
+      [
+        {
+          "en": "Founder & expert voice — E-Cart Solutions · E-Cart Academy",
+          "ar": "المؤسس وصوت الخبرة — إي كارت سوليوشنز · إي كارت أكاديمي"
+        },
+        "Osama Gamal"
+      ]
+    ],
+    "creditsNote": {
+      "en": "Osama Gamal is the founder of E-Cart Solutions (Shopify store builds, redesigns, CRO) and E-Cart Academy.",
+      "ar": "أسامة جمال مؤسس إي كارت سوليوشنز (بناء متاجر Shopify وإعادة تصميمها والـ CRO) وإي كارت أكاديمي."
+    },
     "agencyVideos": [
       {
         "src": "assets/work/ecart/01-no-new-media-buyer.mp4",

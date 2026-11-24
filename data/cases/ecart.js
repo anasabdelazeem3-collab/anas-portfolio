@@ -10,6 +10,11 @@ export const ecartCase = {
   category: 'creative',
   headline: t('Content that sells the agency — and a founder voice people trust', 'محتوى بيبيع الوكالة — وصوت مؤسس الناس بتثق فيه'),
   role: t('Content plan · scriptwriting · filming direction · on-camera host · campaign launches', 'خطة المحتوى · الكتابة · التصوير · المتحدث أمام الكاميرا · إطلاق الحملات'),
+  credits: [
+    [t('Content plan, writing, filming & on-camera host', 'خطة المحتوى والكتابة والتصوير والتقديم'), 'Anas Abdelazeem'],
+    [t('Founder & expert voice — E-Cart Solutions · E-Cart Academy', 'المؤسس وصوت الخبرة — إي كارت سوليوشنز · إي كارت أكاديمي'), 'Osama Gamal'],
+  ],
+  creditsNote: t('Osama Gamal is the founder of E-Cart Solutions (Shopify store builds, redesigns, CRO) and E-Cart Academy.', 'أسامة جمال مؤسس إي كارت سوليوشنز (بناء متاجر Shopify وإعادة تصميمها والـ CRO) وإي كارت أكاديمي.'),
 
   // 1) Agency content — Anas planned, wrote, shot, and hosts. Videos first (site rule).
   agencyVideos: [

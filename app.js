@@ -188,8 +188,7 @@ function home() {
 
   ${tvSection(artProjects)}
 
-  <section><div class="wrap">${secHead('05 · ' + (ar() ? 'الناس' : 'People'), ar() ? 'ناس اشتغلت معاهم' : 'People I’ve worked with', ar() ? 'كل اللينكات جوه' : 'links inside')}
-    ${peopleBlock(people)}</div></section>
+  <section class="tst-sec" id="tst" hidden></section>
 
   <section><div class="wrap">${secHead('06 · ' + t('clients'), ar() ? 'براندات كبرت معايا' : 'Brands I’ve grown', ar() ? 'اضغط على أي واحدة' : 'tap one for its case')}
     <div class="stickers">${clientWall.map(([n, id], i) => `<a class="stk rv" style="--r:${tilt(i)};${clientsC[i % 3]}" href="#case-${id}">${n}</a>`).join('')}</div></div></section>
@@ -273,7 +272,6 @@ function companyView(c) {
     ${c.quote ? `<blockquote class="quote rv"><span class="spin c-o">✸</span><p>${esc(L(c.quote))}</p><cite class="hand">— Anas</cite></blockquote>` : ''}
     ${blk(t('story'), `<div class="story">${c.points.map(p => `<article class="rv"><p>${esc(L(p))}</p></article>`).join('')}</div>`)}
     ${kids.length ? blk(ar() ? `الشركات تحت ${c.name}` : `Companies under ${c.name}`, `<div class="pols kids">${kids.map((k, i) => `<a class="pol rv" style="--r:${tilt(i)}" href="#co-${k.slug}"><span class="tape"></span><img loading="lazy" src="${k.photo}" alt=""><div class="cap"><b>${k.name}</b><span class="hand">${L(k.chapter)}</span></div></a>`).join('')}</div>`) : ''}
-    ${(() => { const ps = people.filter(p => p.company === c.slug || (c.children || []).includes(p.company)); return ps.length ? blk(ar() ? 'اشتغلت مع' : 'Worked with', peopleBlock(ps)) : ''; })()}
     ${blk(t('related'), `<div class="grid">${c.cases.map(byId).filter(Boolean).map(caseCard).join('')}</div>`)}<div class="blk"></div></div>${contactBlock()}</div>`;
 }
 const waLink = msg => `https://wa.me/${contact.whatsapp}?text=${encodeURIComponent(msg)}`;
@@ -289,6 +287,49 @@ const contactBlock = () => `<section class="contact" id="contact"><div class="wr
   <a class="book" href="${waLink(ar() ? 'أهلًا أنس، عايز أحجز استشارة.' : 'Hi Anas, I’d like to book a consultation.')}" target="_blank" rel="noopener">
     <span class="spin">✸</span><b>${ar() ? 'احجز استشارتك دلوقتي' : 'Book your consultation now'}</b><small>${ar() ? 'على واتساب' : 'via WhatsApp'}</small><em>→</em></a>
   <div class="foot"><span>© ${new Date().getFullYear()} Anas Abdelazeem — ANAS ORIGINALS</span><span class="hand" style="font-size:20px">${ar() ? 'كل تجربة تستحق تتحكي.' : 'Every experience is a story.'}</span></div></div></section>`;
+
+/* ---------- testimonials (people write them at #recommend; they appear on the home page automatically) ---------- */
+let tstCache = null;
+async function loadTestimonials() {
+  const el = document.getElementById('tst'); if (!el) return;
+  try {
+    if (!tstCache) { const r = await fetch('/api/testimonials', { headers: { accept: 'application/json' } }); tstCache = r.ok ? (await r.json()).items || [] : []; }
+  } catch { tstCache = []; }
+  if (!tstCache.length || !document.body.contains(el)) return;
+  el.innerHTML = `<div class="wrap">${secHead('05 · ' + (ar() ? 'قالوا عن الشغل' : 'Kind words'), ar() ? 'من ناس اشتغلت معاهم' : 'From people I’ve worked with', '')}
+    <div class="tsts">${tstCache.map((x, i) => `<figure class="tst rv in" style="--r:${tilt(i)}" dir="${x.lang === 'ar' ? 'rtl' : 'ltr'}"><span class="q">“</span><blockquote>${esc(x.message)}</blockquote>
+      <figcaption><b>${x.link ? `<a href="${esc(x.link)}" target="_blank" rel="noopener nofollow">${esc(x.name)} ↗</a>` : esc(x.name)}</b>${x.role ? `<span>${esc(x.role)}</span>` : ''}${x.relation ? `<small>${esc(x.relation)}</small>` : ''}</figcaption></figure>`).join('')}</div></div>`;
+  el.hidden = false;
+}
+function recommendView() {
+  const A = ar();
+  return `<div class="view"><div class="wrap ph-head rec-head"><p class="kick">${A ? 'توصية' : 'Recommendation'}</p>
+    <h1>${A ? 'اكتب كلمة عن شغلنا مع بعض' : 'Write a few words about working together'}</h1>
+    <p>${A ? 'كلامك هيظهر في البورتفوليو بتاعي باسمك. شكرًا إنك واخد من وقتك ❤' : 'Your words will appear on my portfolio under your name. Thank you for taking the time ❤'}</p>${marks()}</div>
+  <section style="padding-top:0"><div class="wrap"><form class="recf" id="recf" novalidate>
+    <label>${A ? 'اسمك' : 'Your name'} *<input name="name" required minlength="2" maxlength="80" autocomplete="name"></label>
+    <label>${A ? 'شغلك / شركتك' : 'Your role / company'}<input name="role" maxlength="120" placeholder="${A ? 'مثلًا: ماركتنج مانجر — صيت' : 'e.g. Marketing Manager — Seet'}"></label>
+    <label>${A ? 'اشتغلنا سوا في إيه؟' : 'How did we work together?'}<input name="relation" maxlength="120" placeholder="${A ? 'مثلًا: حملات صيت ٢٠٢٥' : 'e.g. Seet campaigns, 2025'}"></label>
+    <label>${A ? 'كلمتك عن الشغل' : 'Your recommendation'} *<textarea name="message" required minlength="15" maxlength="1200" rows="6"></textarea></label>
+    <label>${A ? 'لينك حسابك (اختياري)' : 'Link to your profile (optional)'}<input name="link" type="url" maxlength="300" placeholder="https://"></label>
+    <input class="hp" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+    <button class="btn" type="submit">${A ? 'ابعت التوصية' : 'Send recommendation'} →</button>
+    <p class="recmsg" id="recmsg" role="status"></p>
+  </form></div></section></div>`;
+}
+document.addEventListener('submit', async e => {
+  if (e.target.id !== 'recf') return; e.preventDefault();
+  const f = e.target, msg = document.getElementById('recmsg'), btn = f.querySelector('button');
+  const data = Object.fromEntries(new FormData(f));
+  if ((data.name || '').trim().length < 2 || (data.message || '').trim().length < 15) { msg.textContent = ar() ? 'اكتب اسمك وكلمة من ١٥ حرف على الأقل.' : 'Please add your name and at least 15 characters.'; return; }
+  btn.disabled = true; msg.textContent = ar() ? 'بيتبعت…' : 'Sending…';
+  try {
+    const r = await fetch('/api/testimonials', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify(data) });
+    if (!r.ok) throw 0;
+    tstCache = null;
+    f.innerHTML = `<div class="recok"><b>${ar() ? 'وصلت، شكرًا جدًا!' : 'Received — thank you so much!'}</b><p>${ar() ? 'كلامك ظهر دلوقتي في الصفحة الرئيسية.' : 'Your words are now on the home page.'}</p><a class="btn o" href="#">${ar() ? 'شوفها' : 'See it'} →</a></div>`;
+  } catch { btn.disabled = false; msg.textContent = ar() ? 'حصلت مشكلة، جرّب تاني.' : 'Something went wrong — please try again.'; }
+});
 
 /* ---------- interactions ---------- */
 let cfI = 0, cfTimer;
@@ -334,13 +375,14 @@ const app = document.getElementById('app');
 const curtain = document.getElementById('curtain');
 let first = true;
 function render(html, key) {
-  const swap = () => { app.innerHTML = html; paintNav(key); window.scrollTo(0, 0); reveal(); cfInit(); tvInit(); };
+  const swap = () => { app.innerHTML = html; paintNav(key); window.scrollTo(0, 0); reveal(); cfInit(); tvInit(); loadTestimonials(); };
   if (first || matchMedia('(prefers-reduced-motion: reduce)').matches) { first = false; swap(); return; }
   curtain.classList.remove('go'); void curtain.offsetWidth; curtain.classList.add('go'); setTimeout(swap, 420); setTimeout(() => curtain.classList.remove('go'), 1000);
 }
 function route() {
   const h = location.hash.slice(1);
   if (h === 'contact') { if (!document.getElementById('contact')) render(home(), 'home'); setTimeout(() => document.getElementById('contact')?.scrollIntoView(), first ? 50 : 500); paintNav('contact'); return; }
+  if (h === 'recommend') return render(recommendView(), 'home');
   if (h === 'work') return render(work(), 'work');
   if (h === 'art') return render(art(), 'art');
   if (h.startsWith('case-') && byId(h.slice(5))) return render(caseView(byId(h.slice(5))), 'work');

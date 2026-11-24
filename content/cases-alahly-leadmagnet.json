@@ -63,6 +63,36 @@
       "en": "Concept + visual direction (motion graphics × AI)",
       "ar": "الفكرة + الاتجاه البصري (موشن جرافيك × AI)"
     },
+    "credits": [
+      [
+        {
+          "en": "Concept & visual direction",
+          "ar": "الفكرة والاتجاه البصري"
+        },
+        "Anas Abdelazeem"
+      ],
+      [
+        {
+          "en": "Explainer scripts",
+          "ar": "كتابة سكريبتات الشرح"
+        },
+        "Farid Youssef"
+      ],
+      [
+        {
+          "en": "Motion graphics",
+          "ar": "موشن جرافيك"
+        },
+        "Mohamed El Assy"
+      ],
+      [
+        {
+          "en": "Marketing manager (TAG)",
+          "ar": "ماركتنج مانجر (TAG)"
+        },
+        "Ahmed Gamal “Jimmy”"
+      ]
+    ],
     "sections": [
       {
         "heading": {
