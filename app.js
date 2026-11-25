@@ -17,6 +17,7 @@ import { personalPhotos } from './data/personal-photos.js';
 /* ---------- i18n ---------- */
 let lang = 'en';
 try { lang = localStorage.getItem('lang') || 'en'; } catch {}
+try { const q = new URLSearchParams(location.search).get('lang'); if (q === 'ar' || q === 'en') { lang = q; localStorage.setItem('lang', q); } } catch {}
 const ar = () => lang === 'ar';
 const L = v => v == null ? '' : typeof v === 'string' ? v : (v[lang] ?? v.en ?? '');
 const T = {
