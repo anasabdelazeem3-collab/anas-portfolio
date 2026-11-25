@@ -308,8 +308,8 @@ function recommendView() {
     <p>${A ? 'كلامك هيظهر في البورتفوليو بتاعي باسمك. شكرًا إنك واخد من وقتك ❤' : 'Your words will appear on my portfolio under your name. Thank you for taking the time ❤'}</p>${marks()}</div>
   <section style="padding-top:0"><div class="wrap"><form class="recf" id="recf" novalidate>
     <label>${A ? 'اسمك' : 'Your name'} *<input name="name" required minlength="2" maxlength="80" autocomplete="name"></label>
-    <label>${A ? 'شغلك / شركتك' : 'Your role / company'}<input name="role" maxlength="120" placeholder="${A ? 'مثلًا: ماركتنج مانجر — صيت' : 'e.g. Marketing Manager — Seet'}"></label>
-    <label>${A ? 'اشتغلنا سوا في إيه؟' : 'How did we work together?'}<input name="relation" maxlength="120" placeholder="${A ? 'مثلًا: حملات صيت ٢٠٢٥' : 'e.g. Seet campaigns, 2025'}"></label>
+    <label>${A ? 'شغلانتك إيه؟' : 'What do you do?'}<input name="role" maxlength="120" placeholder="Media Buyer · Video Editor"></label>
+    <label>${A ? 'اشتغلنا سوا فين؟' : 'Where did we work together?'}<input name="relation" maxlength="120" placeholder="${A ? 'مثلًا: صيت · إي كارت · TAG' : 'e.g. Seet · E-Cart · TAG'}"></label>
     <label>${A ? 'كلمتك عن الشغل' : 'Your recommendation'} *<textarea name="message" required minlength="15" maxlength="1200" rows="6"></textarea></label>
     <label>${A ? 'لينك حسابك (اختياري)' : 'Link to your profile (optional)'}<input name="link" type="url" maxlength="300" placeholder="https://"></label>
     <input class="hp" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">

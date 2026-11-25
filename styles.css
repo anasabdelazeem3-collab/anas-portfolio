@@ -473,17 +473,17 @@ html,body{overflow-x:clip}
 .recf .hp{position:absolute;left:-9999px;width:1px;height:1px;opacity:0}
 .recf button{justify-self:start}.recmsg{margin:0;font-weight:700;color:var(--purple)}
 .recok b{display:block;font-size:22px;margin-bottom:6px}
-/* mobile hero fixes: keep marquee readable, tickets inside the screen */
+/* mobile hero fixes: character centered behind the band, marquee readable, tickets fit */
 @media (max-width:720px){
-  .strip{height:360px;margin-top:40px}
-  .strip-band{height:120px;bottom:16%}
-  .strip .sticker{height:330px;left:auto;right:4%;transform:rotate(3deg)}
-  [dir=rtl] .strip .sticker{right:auto;left:4%;transform:rotate(-3deg)}
+  .strip{height:380px;margin-top:30px}
+  .strip-band{height:118px;bottom:14%;z-index:2}
+  .strip .sticker,[dir=rtl] .strip .sticker{height:330px;left:50%;right:auto;bottom:4%;transform:translateX(-50%);z-index:1}
   .marquee{font-size:34px!important}
-  .tickets{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:14px!important;padding:0 2px;margin-top:22px}
-  .ticket{transform:none!important;min-width:0;padding:16px 14px!important}
-  .ticket b{font-size:clamp(22px,7vw,30px)!important;white-space:nowrap}
-  .ticket span{font-size:12.5px!important}
+  .tickets{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:12px!important;margin-top:22px}
+  .ticket{transform:none!important;min-width:0;padding:16px 14px!important;overflow:hidden}
+  .ticket b{font-size:clamp(19px,5.6vw,24px)!important;white-space:nowrap;letter-spacing:-.01em}
+  .ticket span{font-size:12.5px!important;line-height:1.35}
+  .brand{font-size:11px;gap:6px}.brand img{width:34px;height:34px}.lang{padding:8px 14px!important;font-size:14px!important}
+  .hdr-row{gap:8px}
 }
-
 .strip-band{direction:ltr}
