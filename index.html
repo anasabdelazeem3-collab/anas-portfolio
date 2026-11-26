@@ -498,6 +498,16 @@ html,body{overflow-x:clip}
   .hdr-row{gap:8px}
 }
 .strip-band{direction:ltr}
+/* hero hello (typed) */
+.hi .hi-t{min-height:1.15em}
+.hi .hi-l{min-height:3.2em}.hi .hi-p{min-height:4.8em}
+.typing::after{content:"";display:inline-block;width:.08em;height:1em;margin-inline-start:2px;background:var(--orange);vertical-align:-.12em;animation:blink .8s steps(1) infinite}
+@keyframes blink{50%{opacity:0}}
+.hi-snd{margin-top:14px;display:inline-flex;align-items:center;gap:8px;padding:10px 18px;border-radius:999px;border:2px solid var(--purple);background:#fff;color:var(--purple);font-weight:800;font-size:14px;box-shadow:3px 3px 0 var(--orange)}
+.hi-snd.on{background:var(--purple);color:#fff;animation:pulse 1.6s var(--ease) infinite}
+@media (max-width:720px){.hi .hi-t{font-size:clamp(30px,9vw,44px)}.hi-snd{display:flex;margin-inline:auto}}
+.hi-snd[hidden]{display:none!important}
+.hi .hi-l{min-height:0}.hi .hi-p{min-height:0}
 </style><!--INLINE-CSS-END-->
 </head>
 <body>

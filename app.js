@@ -162,9 +162,9 @@ function home() {
     ${marks()}
     <div class="hello">
       <div class="scan rv"><i></i><i></i><i></i><i></i><div class="fr"><img class="then" src="assets/personal/scan-hatter.jpg" alt="${ar() ? 'أنس في شخصية صانع القبعات' : 'Anas as the Mad Hatter'}"><img class="now" src="assets/personal/scan-book.jpg" alt="${ar() ? 'أنس المسوّق' : 'Anas, the marketer'}"><span class="line"></span><span class="tag t1">${ar() ? 'ممثل' : 'ACTOR'}</span><span class="tag t2">${ar() ? 'مسوق' : 'MARKETER'}</span></div><small>${ar() ? 'ممثل ومسوق، نفس الشخص ←' : '← actor & marketer, same guy'}</small></div>
-      <div class="rv"><h2 class="disp">${ar() ? 'أهلاً' : 'HELLO'}</h2>
-        <p class="lead">${ar() ? 'أنا أنس — مخطط استراتيجي إبداعي، ومسوق أداء، وممثل.' : 'I’m Anas — creative strategist, performance marketer and actor.'}</p>
-        <p>${ar() ? 'بحول تحديات البيزنس لأفكار وحملات بتجيب أرقام: ليدز، واجتماعات، وعقود، ومبيعات. وبجيب للتسويق حاجة من المسرح والكاميرا: إزاي تخلي الناس توقف وتسمع.' : 'I turn business problems into ideas and campaigns that move numbers — leads, meetings, signed contracts and sales. And I bring something from the stage and the camera into marketing: how to make people stop and listen.'}</p>
+      <div class="rv hi"><h2 class="disp hi-t" data-ty="0">${esc(HELLO()[0])}</h2>
+        <p class="lead hi-l" data-ty="1">${esc(HELLO()[1])}</p>
+        <p class="hi-p" data-ty="2">${esc(HELLO()[2])}</p><button class="hi-snd" id="hiSnd" type="button" hidden>🔊 ${ar() ? 'اسمعني' : 'Hear me'}</button>
         <div class="hero-cta" style="display:flex;gap:12px;margin-top:22px;flex-wrap:wrap"><a class="btn" href="#work">${t('explore')} →</a><a class="btn o" href="#contact">${t('talk')}</a><a class="btn cv" href="${contact.cv}" download="Anas_Abdelazeem_CV.pdf">⤓ ${ar() ? 'نزل السي في' : 'Download CV'}</a></div></div>
       <div class="side rv"><div><h3>${ar() ? 'الأدوات' : 'SKILLS'}</h3><div class="skills">${skills.map(([n, c]) => `<span class="skill" style="background:${c}">${n}</span>`).join('')}</div></div>
         <div><h3>${ar() ? 'الخبرات' : 'EXPERIENCE'}</h3><ul class="xp">${topCos.map(c => `<li><b>${c.name}${c.children ? ` <small>(${c.children.map(k => coBy(k).name).join(' · ')})</small>` : ''}</b><span>${L(c.period)}</span></li>`).join('')}</ul></div></div>
@@ -289,6 +289,45 @@ const contactBlock = () => `<section class="contact" id="contact"><div class="wr
     <span class="spin">✸</span><b>${ar() ? 'احجز استشارتك دلوقتي' : 'Book your consultation now'}</b><small>${ar() ? 'على واتساب' : 'via WhatsApp'}</small><em>→</em></a>
   <div class="foot"><span>© ${new Date().getFullYear()} Anas Abdelazeem — ANAS ORIGINALS</span><span class="hand" style="font-size:20px">${ar() ? 'كل تجربة تستحق تتحكي.' : 'Every experience is a story.'}</span></div></div></section>`;
 
+/* ---------- hero hello: typed as Anas says it (audio optional: assets/hello/hello-ar.mp3 / hello-en.mp3) ---------- */
+const HELLO = () => ar()
+  ? ['أهلاً، ازيك؟ أنا أنس.', 'بسوّق لعميلك بعقل ميديا باير، وفهم دارس علم اجتماع، وإحساس ممثل.', 'اتفرّج على الشغل… ولو عجبك، يلا نعمل حاجة تسيب أثر، ونحقق أهداف واضحة للبيزنس.']
+  : ['Hey, how are you? I’m Anas.', 'I market your brand with a media buyer’s mind, a sociologist’s eye and an actor’s instinct.', 'Take a look at the work… and if you like it, let’s create something impactful and hit clear business goals.'];
+let hiTimer, hiAudio, hiAudioOk = {};
+function hiType(totalMs, done) {
+  const els = [...document.querySelectorAll('[data-ty]')]; if (!els.length) return;
+  clearTimeout(hiTimer);
+  const texts = HELLO(), total = texts.join('').length;
+  const per = Math.max(18, Math.min(60, (totalMs || 5200) / total));
+  els.forEach(e => { e.textContent = ''; e.classList.remove('typing'); });
+  let li = 0, ci = 0;
+  const step = () => {
+    if (li >= els.length) { els[els.length - 1].classList.remove('typing'); done && done(); return; }
+    const el = els[li]; el.classList.add('typing');
+    el.textContent = texts[li].slice(0, ++ci);
+    if (ci >= texts[li].length) { el.classList.remove('typing'); li++; ci = 0; hiTimer = setTimeout(step, per * 8); return; }
+    const ch = texts[li][ci - 1]; hiTimer = setTimeout(step, /[،,.…؟?]/.test(ch) ? per * 6 : per);
+  };
+  step();
+}
+async function hiInit() {
+  if (!document.querySelector('[data-ty]')) return;
+  const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  let seen = false; try { seen = sessionStorage.getItem('hiSeen') === lang; sessionStorage.setItem('hiSeen', lang); } catch {}
+  if (!reduce && !seen) hiType();
+  const src = `/assets/hello/hello-${lang}.mp3`;
+  if (hiAudioOk[src] === undefined) { try { hiAudioOk[src] = (await fetch(src, { method: 'HEAD' })).ok; } catch { hiAudioOk[src] = false; } }
+  const btn = document.getElementById('hiSnd'); if (!btn || !hiAudioOk[src]) return;
+  btn.hidden = false;
+  btn.onclick = () => {
+    if (hiAudio && !hiAudio.paused) { hiAudio.pause(); btn.classList.remove('on'); return; }
+    hiAudio = new Audio(src); btn.classList.add('on');
+    hiAudio.addEventListener('loadedmetadata', () => hiType(hiAudio.duration * 1000 * 0.92), { once: true });
+    hiAudio.addEventListener('ended', () => btn.classList.remove('on'), { once: true });
+    hiAudio.play().catch(() => { btn.classList.remove('on'); hiType(); });
+  };
+}
+
 /* ---------- testimonials (people write them at #recommend; they appear on the home page automatically) ---------- */
 let tstCache = null;
 async function loadTestimonials() {
@@ -376,7 +415,8 @@ const app = document.getElementById('app');
 const curtain = document.getElementById('curtain');
 let first = true;
 function render(html, key) {
-  const swap = () => { app.innerHTML = html; paintNav(key); window.scrollTo(0, 0); reveal(); cfInit(); tvInit(); loadTestimonials(); };
+  try { hiAudio && hiAudio.pause(); } catch {}
+  const swap = () => { app.innerHTML = html; paintNav(key); window.scrollTo(0, 0); reveal(); cfInit(); tvInit(); loadTestimonials(); hiInit(); };
   if (first || matchMedia('(prefers-reduced-motion: reduce)').matches) { first = false; swap(); return; }
   curtain.classList.remove('go'); void curtain.offsetWidth; curtain.classList.add('go'); setTimeout(swap, 420); setTimeout(() => curtain.classList.remove('go'), 1000);
 }
