@@ -525,3 +525,15 @@ html,body{overflow-x:clip}
 .cf-card.has-p .ov small{display:none}
 .cf-card.has-p .ov h3{font-size:15px;margin:0 0 8px}
 @media (max-width:720px){.cf-card.has-p .ov h3{font-size:14px}}
+/* coverflow: bigger, readable cards on desktop / large screens */
+@media (min-width:1001px){
+  .cf{height:clamp(520px,42vw,680px)}
+  .cf-card{width:clamp(280px,21vw,380px)}
+  .cf-card .ov{padding:20px}
+  .cf-card .ov h3,.cf-card.has-p .ov h3{font-size:clamp(16px,1.25vw,20px);line-height:1.3}
+  .cf-card .ov .k{font-size:13px;gap:16px}.cf-card .ov .k b{font-size:clamp(15px,1.15vw,19px)}
+  .cf-card.has-p .pcover{flex-basis:56%;padding:16px}
+  .cf-card .badge{font-size:14px;padding:5px 12px}
+  .ptag{font-size:12px;padding:7px 13px}
+}
+.cf-sec .sec-h .hand{color:var(--orange);opacity:.9}
