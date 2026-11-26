@@ -100,11 +100,14 @@ const kpiStrip = c => {
 };
 const coverOf = c => c.cover || c.gallery?.[0]?.src;
 const bigKpi = c => { const e = Object.entries(c.kpis || c.metrics || {}).find(([k, v]) => ML[k] && fmtMetric(k, v)); return e ? [fmtMetric(e[0], e[1]), ML[e[0]][ar() ? 1 : 0]] : ['✸', '']; };
+const proofOf = c => (c.kind === 'leadgen' || c.kind === 'ecom') && (c.proof?.[0]?.src);
+const proofCover = (c, i) => `<div class="pcover c${i % 3}"><span class="ptag">${esc((L(c.sub) || '').split(' — ')[0])}</span><div class="pframe"><img loading="lazy" src="${proofOf(c)}" alt=""></div></div>`;
+const mediaOf = (c, i) => proofOf(c) ? proofCover(c, i) : coverOf(c) ? `<img loading="lazy" src="${coverOf(c)}" alt="">` : typoCover(c, i);
 const typoCover = (c, i) => { const [v, l] = bigKpi(c); return `<div class="tcover c${i % 3}"><span class="cl">${esc((L(c.sub) || '').split(' — ')[0])}</span><div><div class="big">${v}</div><span class="cl">${l}</span></div><span class="st">✸</span></div>`; };
 /* ---------- shared pieces (editorial) ---------- */
 const tilt = i => ['-1.6deg', '1.2deg', '-0.8deg', '1.8deg', '-1.2deg', '0.9deg'][i % 6];
 const caseCard = (c, i = 0) => `<a class="card rv" style="--r:${tilt(i)}" href="#case-${c.id}">
-  <div class="card-m">${coverOf(c) ? `<img loading="lazy" src="${coverOf(c)}" alt="">` : typoCover(c, i)}${c.videos ? `<span class="play">▶ ${c.videos.length}</span>` : ''}</div>
+  <div class="card-m">${mediaOf(c, i)}${c.videos ? `<span class="play">▶ ${c.videos.length}</span>` : ''}</div>
   <div class="card-b"><small>${esc(L(c.sub))}</small><h3>${esc(L(c.title))}</h3>${kpiStrip(c)}</div></a>`;
 const LAND = new Set(["assets/art/ads/etisalat.mp4", "assets/art/ads/storytel.mp4", "assets/art/roof/video/brand-film-every-table.mp4", "assets/art/talabat/talabat-shahid-ad.mp4", "assets/work/alahly/matrix-01-data.mp4", "assets/work/alahly/matrix-02-search-diet.mp4", "assets/work/alahly/matrix-03-crowd-engagement.mp4", "assets/work/alahly/matrix-04-algorithms-trend.mp4", "assets/work/alahly/matrix-05-space.mp4"]);
 const isLand = v => v.orientation === 'landscape' || LAND.has(v.src);
@@ -175,11 +178,13 @@ function home() {
   <div class="wrap"><div class="tickets">${tickets.map(([v, l], i) => `<div class="ticket rv" style="--r:${tilt(i)}"><b>${v}</b><span>${l}</span></div>`).join('')}</div></div>
   </section>
 
+  ${aboutSection()}
+
   <section><div class="wrap">${secHead('01 · ' + t('whatI'), t('whatT'), ar() ? 'عقل تسويقي، إحساس ممثل' : 'five hats, one head')}
     <div class="roles">${roles.map(([i, en, a], n) => `<span class="role rv" style="--r:${tilt(n)}"><i class="${['c-o', 'c-p', 'c-l', 'c-p', 'c-o'][n]}">${i}</i>${ar() ? a : en}</span>`).join('')}</div></div></section>
 
   <section class="cf-sec"><div class="wrap">${secHead('02 · ' + t('featured'), t('featT'), ar() ? 'اسحب ←' : 'swipe →')}
-    <div class="cf" id="cf">${cf.map((c, i) => `<a class="cf-card" data-i="${i}" href="#case-${c.id}">${coverOf(c) ? `<img src="${coverOf(c)}" alt="">` : typoCover(c, i)}${c.kpis?.roas ? `<span class="badge">${nf(c.kpis.roas, 1)}×</span>` : ''}
+    <div class="cf" id="cf">${cf.map((c, i) => `<a class="cf-card${proofOf(c) ? ' has-p' : ''}" data-i="${i}" href="#case-${c.id}">${mediaOf(c, i)}${c.kpis?.roas ? `<span class="badge">${nf(c.kpis.roas, 1)}×</span>` : ''}
       <div class="ov"><small>${esc(L(c.sub))}</small><h3>${esc(L(c.title))}</h3>${kpiStrip(c).replace('class="kpis"', 'class="k"')}</div></a>`).join('')}</div>
     <div class="cf-nav"><button data-cf="-1" aria-label="prev">←</button><button data-cf="1" aria-label="next">→</button></div><div class="cf-dots" id="cfd">${cf.map(() => '<i></i>').join('')}</div>
     <p style="text-align:center;margin-top:30px"><a class="btn" style="background:#fff;color:var(--ink);border-color:#fff" href="#work">${t('allWork')} →</a></p></div></section>
@@ -288,6 +293,35 @@ const contactBlock = () => `<section class="contact" id="contact"><div class="wr
   <a class="book" href="${waLink(ar() ? 'أهلًا أنس، عايز أحجز استشارة.' : 'Hi Anas, I’d like to book a consultation.')}" target="_blank" rel="noopener">
     <span class="spin">✸</span><b>${ar() ? 'احجز استشارتك دلوقتي' : 'Book your consultation now'}</b><small>${ar() ? 'على واتساب' : 'via WhatsApp'}</small><em>→</em></a>
   <div class="foot"><span>© ${new Date().getFullYear()} Anas Abdelazeem — ANAS ORIGINALS</span><span class="hand" style="font-size:20px">${ar() ? 'كل تجربة تستحق تتحكي.' : 'Every experience is a story.'}</span></div></div></section>`;
+
+/* ---------- about: words light up as you scroll (reference: smooth scroll-linked reveal) ---------- */
+const ABOUT = () => ar() ? {
+  k: 'نبذة عني',
+  t: 'من تلات سنين ببني حملات بهدف واحد: إني أحوّل الانتباه لـ*بيزنس* — *ليدز*، و*اجتماعات*، و*عقود*، و*مبيعات*. اشتغلت في الإيكومرس والليد جنريشن والمحتوى لبراندات في *مصر* و*السعودية*، ومسكت الشغل من *البريف* لحد *التقرير*. درست *علم الاجتماع* في جامعة المنصورة، وبمثّل من *٢٠١٧* — فبكتب لناس حقيقيين، وعارف إزاي أخليهم *يوقفوا* و*يسمعوا*.',
+  chips: [[12, 'قرارات مبنية على داتا'], [30, 'من البريف للتقرير'], [44, 'إحساس ممثل']]
+} : {
+  k: 'A bit about me',
+  t: 'For three years I’ve built campaigns with one goal: turning attention into *business* — *leads*, *meetings*, *contracts* and *sales*. I’ve worked across e-commerce, lead generation and content for brands in *Egypt* and *Saudi* *Arabia*, handling the work from the *brief* to the *report*. I studied *sociology* at Mansoura University and I’ve been acting since *2017* — so I write for real people, and I know how to make them *stop* and *listen*.',
+  chips: [[14, 'Decisions backed by data'], [38, 'From brief to report'], [56, 'An actor’s instinct']]
+};
+function aboutSection() {
+  const a = ABOUT(); const words = a.t.split(' ');
+  return `<section class="about" id="about"><div class="wrap"><p class="kick ab-k">${a.k}</p><p class="ab-t" dir="auto">${words.map((w, i) => {
+    const hot = /\*/.test(w); const chip = a.chips.find(c => c[0] === i);
+    return `<span class="w${hot ? ' hot' : ''}" data-i="${i}">${esc(w.replace(/\*/g, ''))}${chip ? `<em class="ab-chip" data-at="${i}">${esc(chip[1])}</em>` : ''}</span>`;
+  }).join(' ')}</p></div></section>`;
+}
+let abRaf = 0;
+function aboutUpdate() {
+  abRaf = 0; const sec = document.getElementById('about'); if (!sec) return;
+  const ws = sec.querySelectorAll('.w'); const r = sec.getBoundingClientRect(); const vh = innerHeight;
+  const p = Math.min(1, Math.max(0, (vh * 0.85 - r.top) / (r.height + vh * 0.15)));
+  const lit = p * (ws.length + 4);
+  ws.forEach((w, i) => { const v = Math.min(1, Math.max(0, lit - i)); w.style.setProperty('--p', v.toFixed(3)); });
+  sec.querySelectorAll('.ab-chip').forEach(c => c.classList.toggle('on', lit >= +c.dataset.at + 1));
+}
+addEventListener('scroll', () => { if (!abRaf) abRaf = requestAnimationFrame(aboutUpdate); }, { passive: true });
+addEventListener('resize', () => { if (!abRaf) abRaf = requestAnimationFrame(aboutUpdate); });
 
 /* ---------- hero hello: typed as Anas says it (audio optional: assets/hello/hello-ar.mp3 / hello-en.mp3) ---------- */
 const HELLO = () => ar()
@@ -416,7 +450,7 @@ const curtain = document.getElementById('curtain');
 let first = true;
 function render(html, key) {
   try { hiAudio && hiAudio.pause(); } catch {}
-  const swap = () => { app.innerHTML = html; paintNav(key); window.scrollTo(0, 0); reveal(); cfInit(); tvInit(); loadTestimonials(); hiInit(); };
+  const swap = () => { app.innerHTML = html; paintNav(key); window.scrollTo(0, 0); reveal(); cfInit(); tvInit(); loadTestimonials(); hiInit(); aboutUpdate(); };
   if (first || matchMedia('(prefers-reduced-motion: reduce)').matches) { first = false; swap(); return; }
   curtain.classList.remove('go'); void curtain.offsetWidth; curtain.classList.add('go'); setTimeout(swap, 420); setTimeout(() => curtain.classList.remove('go'), 1000);
 }
